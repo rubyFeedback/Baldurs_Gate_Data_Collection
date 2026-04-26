@@ -11,10 +11,10 @@ not published. I may eventually publish them, but I can not promise when.
 
 As this may take some time, let me thus briefly explain the two .yml files.
 
-The first .yml file will show which mods are tracked. This is a simple
-Array - first entries will be installed first. The name given here muts
-be unique, and defined in the second .yml file. Either way the first .yml
-file is very simple.
+The first .yml file, called **array_mod_installation_order.yml**, will show which mods
+are tracked. This is a simple Array - first entries will be installed first. The name
+given here must be unique, and defined in the second .yml file. Either way the first
+.yml file is very simple.
 
 The second .yml file is much larger and more complex. It contains all 
 information needed to download the mod. The idea is that from this
