@@ -1,0 +1,23 @@
+# ============================================================================ #
+# === array_mod_installation_order.yml
+#
+# This file is only allowed to specify the installation order of
+# mods. The real complexity of each entry here, is kept in
+# another .yml file.
+#
+# Note that each entry here must be a Symbol.
+# ============================================================================ #
+
+!ruby/symbol EET_from_Gibberlings3       #  (1) EET Mod.
+!ruby/symbol Graphical_Overhaul          #  (2) Graphical Overhaul Mod.
+!ruby/symbol consumables:                #  (3) These are the ZS consumables.
+!ruby/symbol Lunia_for_Good_Parties:     #  (4) Lunia for Good Parties Mod.
+!ruby/symbol duality_odd_quest:          #  (5) Duality Odd Quest Mod.
+!ruby/symbol unfinished_business:        #  (6) Unfinished Business Mod.
+!ruby/symbol lichdom:                    #  (7) Lichdom Mod.
+!ruby/symbol peacespeaker:               #  (8) The small peacespeaker Mod.
+!ruby/symbol dvaradime:                  #  (9) Dvaradime Mod.
+!ruby/symbol Afaaq_the_Djinni_Companion  # (10) Afaaq the Djinni companion
+!ruby/symbol the_oops_mod                # (11) The Oops Mod.
+!ruby/symbol the_tangled_oak_isle_mod    # (12) The Tangled Oak isle Mod.
+!ruby/symbol The_Ooze_Lounge_mod         # (13) The Ooze Lounge Mod.
