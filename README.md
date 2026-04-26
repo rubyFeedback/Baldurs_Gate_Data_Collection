@@ -1,7 +1,9 @@
 # Baldurs_Gate_Data_Collection
-This repository may contain some information related to the old game called BG.
+This repository may contain some information related to the old game called BG
+(Baldur's Gate). Though, I personally focus more on BG2, so BG1 or SoD and so
+forth, are at best secondary focus points.
 
-Please do take note that this repository may only be very rarely updated. Right
+Please do take note that this repository may only be very **rarely updated**. Right
 now I only use it to publish the .yml files I use to track remote mods (BG2
 mods for the most part). That way others can look at the information and 
 adjust it for their own case.
