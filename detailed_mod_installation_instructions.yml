@@ -1,0 +1,319 @@
+# ============================================================================================ #
+# === detailed_mod_installation_instructions.yml
+#
+# This .yml file contains the instructions for installation of BG2 mods. I am using this
+# for the latest Baldur's Gate 2 EE.
+#
+# Quest mods should usually be installed before NPC mods. Fixes should be installed
+# even earlier.
+#
+# Format:
+#
+# latest_release_at should be the direct URL that can be downloaded, e. g. via wget.
+# ============================================================================================ #
+# x = YAML.load_file("detailed_mod_installation_instructions.yml")
+# ============================================================================================ #
+
+# ============================================================================================ #
+# Todos:
+#
+# - Ensure latest Forgotten Armament.
+#   https://www.morpheus-mart.com/forgotten-armament
+#
+# - Play Siege of Dragonspear at a later time.
+# ============================================================================================ #
+
+# ============================================================================================ #
+# === EET mod
+# ============================================================================================ #
+# Latest version:   14.1       # The latest official version.
+# Latest update:    24.04.2026 # We use the git clone sources.
+# Last checked:     24.04.2026 # Last checked by me.
+# ============================================================================================ #
+# https://github.com/Gibberlings3/EET/
+# https://github.com/Gibberlings3/EET/archive/refs/tags/v14.1.zip
+# git clone https://github.com/Gibberlings3/EET/
+# ============================================================================================ #
+!ruby/symbol EET_from_Gibberlings3:
+ name_to_use:       EET_from_Gibberlings3
+ real_name:         EET # This will be used for weidu.exe
+ github:            https://github.com/Gibberlings3/EET/
+ latest_release_at: https://github.com/Gibberlings3/EET/archive/refs/tags/v14.1.zip
+ last_checked:      25.04.2026
+ latest_version:    25.04.2026
+ use_git_checkout:  true
+
+# ============================================================================================ #
+# === Graphical Overhaul mod
+# ============================================================================================ #
+# Latest version:   3.5a       # The latest official version.
+# Latest update:    25.04.2026 # We use the git clone sources.
+# Last checked:     25.04.2026 # Last checked by me.
+# ============================================================================================ #
+# mkdir 002_Baldurs_Gate_Graphical_Overhaul-v3.5a.published_on_21.03.2026; cd *Baldurs_Gate_Graphical_*
+# gitclone https://github.com/Spellhold-Studios/Baldurs-Gate-Graphical-Overhaul
+# wget https://github.com/Spellhold-Studios/Baldurs-Gate-Graphical-Overhaul/releases/download/v3.5/baldurs-gate-graphical-overhaul-v3.5.zip
+# ============================================================================================ #
+!ruby/symbol Graphical_Overhaul:
+ name_to_use:       Graphical_Overhaul_mod
+ real_name:         Baldurs-Gate-Graphical-Overhaul
+ github:            https://github.com/Spellhold-Studios/Baldurs-Gate-Graphical-Overhaul
+ latest_release_at: https://github.com/Spellhold-Studios/Baldurs-Gate-Graphical-Overhaul/releases/download/v3.6/baldurs-gate-graphical-overhaul-v3.6.zip
+ forum:             https://www.gibberlings3.net/forums/topic/36946-baldurs-gate-graphical-overhaul-bggo-for-eet-bgt-tutu-bgee/
+ last_checked:      25.04.2026
+ latest_version:    25.04.2026
+ use_git_checkout:  true
+
+# ============================================================================================ #
+# === ZS_Consumables
+#
+# This mod has been created by szaumoor.
+# ============================================================================================ #
+# Latest version:   1.0.3      # The latest official version.
+# Latest update:    25.04.2026 # We use the git clone sources.
+# Last checked:     25.04.2026 # Last checked by me.
+# ============================================================================================ #
+# https://github.com/szaumoor/ZS_Consumables
+# mkdir 003_Kaelyns_Consumables-v1.0.3-published_on_22.03.2026
+# wget https://github.com/szaumoor/ZS_Consumables/releases/download/1.0.5/win-ZS_Consumables-1.0.5.zip
+# ============================================================================================ #
+!ruby/symbol consumables:
+ name_to_use:       ZS_consumables_mod
+ real_name:         ZS_Consumables
+ github:            https://github.com/szaumoor/ZS_Consumables
+ latest_release_at: https://github.com/szaumoor/ZS_Consumables/releases/download/1.0.5/win-ZS_Consumables-1.0.5.zip
+ last_checked:      25.04.2026
+ latest_version:    25.04.2026
+ use_git_checkout:  true
+
+# ============================================================================================ #
+# === Lunia for Good Parties mod
+# ============================================================================================ #
+# Latest version:   1.9.1      # The latest official version.
+# Latest update:    25.04.2026 # We use the git clone sources.
+# Last checked:     25.04.2026 # Last checked by me.
+# ============================================================================================ #
+# https://github.com/bucketfulofsunshine/Lunia-For-Good-Parties
+# mkdir 004_Lunia_for_Good_Parties-v1.3.2-published_on_22.03.2026
+# wget https://github.com/bucketfulofsunshine/Lunia-For-Good-Parties/releases/tag/V1.3.2
+# ============================================================================================ #
+!ruby/symbol Lunia_for_Good_Parties:
+ name_to_use:       Lunia_for_Good_Parties_mod
+ real_name:         Lunia-For-Good-Parties
+ github:            https://github.com/bucketfulofsunshine/Lunia-For-Good-Parties
+ latest_release_at: https://github.com/bucketfulofsunshine/Lunia-For-Good-Parties/archive/refs/tags/V1.9.1.zip
+ last_checked:      25.04.2026
+ latest_version:    25.04.2026
+ use_git_checkout:  true
+
+# ============================================================================================ #
+# === Duality odd quest mod
+#
+# This mod adds some difficult encounters that takes place in Chapter 6 in the Umar Hills,
+# after you defeated the Shade Lord.
+# ============================================================================================ #
+# Latest version:   2.3b1      # The latest official version.
+# Latest update:    25.04.2026 # We use the git clone sources.
+# Last checked:     25.04.2026 # Last checked by me.
+# ============================================================================================ #
+# https://github.com/Spellhold-Studios/Duality-Odd-Quest-Mod/
+# mkdir 005_Duality_Odd_Quest_Mod_v2.3b1_published_on_22.03.2026
+# wget https://github.com/Spellhold-Studios/Duality-Odd-Quest-Mod/releases/download/v2.3b1/imnesvale-v2.3b1.zip
+# ============================================================================================ #
+# https://github.com/Spellhold-Studios/Duality-Odd-Quest-Mod
+# https://github.com/Spellhold-Studios/Duality-Odd-Quest-Mod/releases/
+# https://github.com/Spellhold-Studios/Duality-Odd-Quest-Mod/releases/tag/v2.1
+# ============================================================================================ #
+!ruby/symbol duality_odd_quest:      # (5) Duality Odd Quest Mod
+ name_to_use:       Duality_Odd_Quest_mod
+ real_name:         Duality-Odd-Quest-Mod
+ github:            https://github.com/Spellhold-Studios/Duality-Odd-Quest-Mod/
+ latest_release_at: https://github.com/Spellhold-Studios/Duality-Odd-Quest-Mod/archive/refs/tags/V1.9.1.zip
+ last_checked:      25.04.2026
+ latest_version:    25.04.2026
+ use_git_checkout:  true
+
+# ============================================================================================ #
+# === UnfinishedBusiness mod
+#
+# Should come early. This mod contains Artemis Entreri and the kidnapping of
+# Boo, among other quests.
+# ============================================================================================ #
+# Latest version:   v29.1      # The latest official version.
+# Latest update:    25.04.2026 # We use the git clone sources.
+# Last checked:     25.04.2026 # Last checked by me.
+# ============================================================================================ #
+# https://github.com/Pocket-Plane-Group/UnfinishedBusiness
+# mkdir 04_Unfinished_Business-v29-05.06.2025; cd 04_Unfinish*
+# gitclone https://github.com/Pocket-Plane-Group/UnfinishedBusiness
+# ============================================================================================ #
+# https://github.com/Pocket-Plane-Group/UnfinishedBusiness
+# https://github.com/Pocket-Plane-Group/UnfinishedBusiness/releases/
+# https://github.com/Pocket-Plane-Group/UnfinishedBusiness/releases/tag/v2.1
+# ============================================================================================ #
+!ruby/symbol unfinished_business:      # (6) Unfinished Business Mod
+ name_to_use:       Unfinished_Business_mod
+ real_name:         UnfinishedBusiness
+ github:            https://github.com/Pocket-Plane-Group/UnfinishedBusiness
+ latest_release_at: https://github.com/Pocket-Plane-Group/UnfinishedBusiness/archive/refs/tags/V1.9.1.zip
+ last_checked:      25.04.2026
+ latest_version:    25.04.2026
+ use_git_checkout:  true
+
+# ============================================================================================ #
+# === Lichdom mod
+#
+# Should come early. This mod contains Artemis Entreri and the kidnapping of
+# Boo, among other quests.
+# ============================================================================================ #
+# Latest version:   v1.4b      # The latest official version.
+# Latest update:    25.04.2026 # We use the git clone sources.
+# Last checked:     25.04.2026 # Last checked by me.
+# ============================================================================================ #
+# https://github.com/LCA-EET/Lichdom/
+# mkdir 05_Lichdom_Mod-v1.4b-released-on-09.05.2025; cd *Lichdom*
+# wget https://github.com/LCA-EET/Lichdom/releases/download/v1.4b/Install_Lichdom.zip; tarb *zip
+# ============================================================================================ #
+# https://github.com/LCA-EET/Lichdom/releases/
+# https://github.com/LCA-EET/Lichdom/releases/tag/v1.4a
+# ============================================================================================ #
+!ruby/symbol lichdom:
+ name_to_use:       Lichdom_mod
+ real_name:         Lichdom
+ github:            https://github.com/LCA-EET/Lichdom
+ latest_release_at: https://github.com/LCA-EET/Lichdom/archive/refs/tags/V1.9.1.zip
+ last_checked:      25.04.2026
+ latest_version:    25.04.2026
+ use_git_checkout:  true
+
+# ============================================================================================ #
+# === peacespeaker mod
+# ============================================================================================ #
+# Latest version:   2.3        # The latest official version.
+# Latest update:    25.04.2026 # We use the git clone sources.
+# Last checked:     25.04.2026 # Last checked by me.
+# ============================================================================================ #
+# https://github.com/bucketfulofsunshine/peacespeaker
+# mkdir 05_Lichdom_Mod-v1.4b-released-on-09.05.2025; cd *Lichdom*
+# wget https://github.com/LCA-EET/peacespeaker/releases/download/v1.4b/Install_Lichdom.zip; tarb *zip
+# ============================================================================================ #
+# https://github.com/bucketfulofsunshine/peacespeaker
+# https://github.com/bucketfulofsunshine/peacespeaker/releases/tag/v1.4a
+# ============================================================================================ #
+!ruby/symbol peacespeaker:
+ name_to_use:       Peacespeaker_mod
+ real_name:         peacespeaker
+ github:            https://github.com/bucketfulofsunshine/peacespeaker
+ latest_release_at: https://github.com/bucketfulofsunshine/peacespeaker/refs/tags/V1.9.1.zip
+ last_checked:      25.04.2026
+ latest_version:    25.04.2026
+ use_git_checkout:  true
+ 
+# ============================================================================================ #
+# === The Dvaradime NPC some NPC - is a fairly nice mod.
+# ============================================================================================ #
+# Latest version:   1.6        # The latest official version.
+# Latest update:    30.09.2024 # 
+# Last checked:     25.04.2026 # Last checked by me.
+# ============================================================================================ #
+# https://downloads.weaselmods.net/download/dvaradime/
+# mkdir 07_Dvaradime_the_NPC_v1.6-published-on-30.09.2024; cd 33_Dvara*
+# ============================================================================================ #
+!ruby/symbol dvaradime:
+ name_to_use:       Dvaradime_mod
+ real_name:         dvaradime
+ github:            https://github.com/bucketfulofsunshine/peacespeaker
+ latest_release_at: https://downloads.weaselmods.net/download/dvaradime/?wpdmdl=647&refresh=69ea3f1c2a6bd1776959260
+ last_checked:      25.04.2026
+ latest_version:    25.04.2026
+ use_git_checkout:  false
+
+# ============================================================================================ #
+# === Afaaq the Djinni Companion
+# ============================================================================================ #
+# Latest version:   2.11       # The latest official version.
+# Latest update:    25.04.2026 # 
+# Last checked:     25.04.2026 # Last checked by me.
+# ============================================================================================ #
+# https://github.com/Argent77/DjinniCompanion
+# mkdir 06_Afaaq_the_Djinni_Companion_v2.11_released_on_05.01.2025; cd 30_Afaaq*;
+# wget https://github.com/Argent77/DjinniCompanion/releases/download/v2.11/win-A7-DjinniCompanion-v2.11.zip; tarb *zip
+# ============================================================================================ #
+!ruby/symbol Afaaq_the_Djinni_Companion:
+ name_to_use:       Afaaq_the_Djinni_Companion_mod
+ real_name:         DjinniCompanion
+ github:            https://github.com/Argent77/DjinniCompanion
+ latest_release_at: https://github.com/Argent77/DjinniCompanion
+ last_checked:      25.04.2026
+ latest_version:    25.04.2026
+ use_git_checkout:  true
+
+# ============================================================================================ #
+# === The Oops mod
+#
+# Oops the magician can be found next to the Watchtower, to the south-west.
+# ============================================================================================ #
+# Latest version:   4.4.1      # The latest official version.
+# Latest update:    25.04.2026 # 
+# Last checked:     25.04.2026 # Last checked by me.
+# ============================================================================================ #
+# https://github.com/Deratiseur/Oops
+# mkdir 008_The_Oops_Mod_v4.4.1-published-on-03.12.2025; cd 008_The_Oops*
+# wget https://github.com/Deratiseur/Oops/releases/download/v4.4.1/win-Derats_Oops-v4.4.1.zip
+# ============================================================================================ #
+# https://github.com/Deratiseur/Oops
+# https://github.com/Deratiseur/Oops/releases
+# ============================================================================================ #
+!ruby/symbol the_oops_mod:
+ name_to_use:       The_oops_mod
+ real_name:         Oops
+ github:            https://github.com/Deratiseur/Oops
+ latest_release_at: https://github.com/Deratiseur/Oops
+ last_checked:      25.04.2026
+ latest_version:    25.04.2026
+ use_git_checkout:  true
+
+# ============================================================================================ #
+# === The Tangled Oak isle mod
+# ============================================================================================ #
+# Latest version:   4.7        # The latest official version.
+# Latest update:    10.01.2026 # 
+# Last checked:     25.04.2026 # Last checked by me.
+# ============================================================================================ #
+# https://downloads.weaselmods.net/download/tangled-oak-isle/
+# mkdir 009_The_Tangled_Oak_Isle_mod_v4.6-released-on-28.12.2025; cd 009_The_Tangled*
+# wget https://github.com/Deratiseur/Oops/releases/download/v4.4.1/win-Derats_Oops-v4.4.1.zip
+# ============================================================================================ #
+# https://downloads.weaselmods.net/download/tangled-oak-isle/
+# ============================================================================================ #
+!ruby/symbol the_tangled_oak_isle_mod:
+ name_to_use:       The_Tangled_Oak_isle_mod
+ real_name:         Tangled_Oak_Isle
+ github:            https://downloads.weaselmods.net/download/tangled-oak-isle/
+ latest_release_at: https://downloads.weaselmods.net/download/tangled-oak-isle/?wpdmdl=317&refresh=69e5834e3006d1776649038
+ last_checked:      25.04.2026
+ latest_version:    4.7
+ use_git_checkout:  false
+
+# ============================================================================================ #
+# === The Ooze Lounge Mod                                                           (ooze tag)
+# ============================================================================================ #
+# Latest version:   3.0        # The latest official version.
+# Latest update:    08.01.2026 # 
+# Last checked:     25.04.2026 # Last checked by me.
+# ============================================================================================ #
+# https://downloads.weaselmods.net/download/tangled-oak-isle/
+# mkdir 010_The_Ooze_Lounge_v2.99-28.12.2025; cd 010_The_Oo*
+# wget https://github.com/Deratiseur/Oops/releases/download/v4.4.1/win-Derats_Oops-v4.4.1.zip
+# ============================================================================================ #
+# https://downloads.weaselmods.net/download/tangled-oak-isle/
+# ============================================================================================ #
+!ruby/symbol The_Ooze_Lounge_mod:
+ name_to_use:       The_Ooze_Lounge_mod
+ real_name:         oozes-lounge
+ github:            https://downloads.weaselmods.net/download/oozes-lounge/
+ latest_release_at: https://downloads.weaselmods.net/download/oozes-lounge/?wpdmdl=59&refresh=69e624498919f1776690249
+ last_checked:      25.04.2026
+ latest_version:    3.0
+ use_git_checkout:  false
+
