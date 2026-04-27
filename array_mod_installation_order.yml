@@ -8,16 +8,26 @@
 # Note that each entry here must be a Symbol.
 # ============================================================================ #
 
-!ruby/symbol EET_from_Gibberlings3       #  (1) EET Mod.
-!ruby/symbol Graphical_Overhaul          #  (2) Graphical Overhaul Mod.
-!ruby/symbol consumables:                #  (3) These are the ZS consumables.
-!ruby/symbol Lunia_for_Good_Parties:     #  (4) Lunia for Good Parties Mod.
-!ruby/symbol duality_odd_quest:          #  (5) Duality Odd Quest Mod.
-!ruby/symbol unfinished_business:        #  (6) Unfinished Business Mod.
-!ruby/symbol lichdom:                    #  (7) Lichdom Mod.
-!ruby/symbol peacespeaker:               #  (8) The small peacespeaker Mod.
-!ruby/symbol dvaradime:                  #  (9) Dvaradime Mod.
-!ruby/symbol Afaaq_the_Djinni_Companion  # (10) Afaaq the Djinni companion
-!ruby/symbol the_oops_mod                # (11) The Oops Mod.
-!ruby/symbol the_tangled_oak_isle_mod    # (12) The Tangled Oak isle Mod.
-!ruby/symbol The_Ooze_Lounge_mod         # (13) The Ooze Lounge Mod.
+!ruby/symbol EET_from_Gibberlings3        #  (1) EET Mod.
+!ruby/symbol Graphical_Overhaul           #  (2) Graphical Overhaul Mod.
+!ruby/symbol consumables:                 #  (3) These are the ZS consumables.
+!ruby/symbol Lunia_for_Good_Parties:      #  (4) Lunia for Good Parties Mod.
+!ruby/symbol duality_odd_quest:           #  (5) Duality Odd Quest Mod.
+!ruby/symbol unfinished_business:         #  (6) Unfinished Business Mod.
+!ruby/symbol lichdom:                     #  (7) Lichdom Mod.
+!ruby/symbol peacespeaker:                #  (8) The small peacespeaker Mod.
+!ruby/symbol dvaradime:                   #  (9) Dvaradime Mod.
+!ruby/symbol Afaaq_the_Djinni_Companion   # (10) Afaaq the Djinni companion
+!ruby/symbol the_oops_mod                 # (11) The Oops Mod.
+!ruby/symbol the_tangled_oak_isle_mod     # (12) The Tangled Oak isle Mod.
+!ruby/symbol The_Ooze_Lounge_mod          # (13) The Ooze Lounge Mod.
+!ruby/symbol The_Dungeon_Crawl_mod        # (14) The Dungeon Crawl Mod.
+!ruby/symbol Demon_summoning_ritual_mod   # (15) The Demon summoning ritual Mod.
+!ruby/symbol Aura_the_artificer_mod       # (16) Aura the artificer Mod.
+!ruby/symbol I_shall_never_forget_mod     # (17) I shall never forget Mod.
+!ruby/symbol Tales_of_the_Deep_Garden_mod # (18) Tales of the Deep Garden Mod.
+!ruby/symbol Golden_Horse_mod             # (19) Golden Horse Mod.
+!ruby/symbol Will_of_the_Wisps_mod        # (20) Will of the Wisps Mod.
+!ruby/symbol ZS_ItemPack_mod              # (21) ZS ItemPack Mod.
+!ruby/symbol Southern_Edge_mod            # (22) Southern Edge Mod.
+!ruby/symbol Paina_the_NPC_mod            # (23) Paina the NPC Mod.
