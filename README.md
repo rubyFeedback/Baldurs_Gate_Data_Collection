@@ -8,7 +8,7 @@ Please do take note that this repository may only be very **rarely updated**. Ri
 now I only use it to publish the .yml files I use to track remote mods (BG2
 mods for the most part), as well as one .rb (ruby) file that evaluates the 
 logic in these .yml file. That way others can look at the information and 
-adjust it for their own case; and may adjust the .rb file to their own
+adjust it for their own use case; and may adjust the .rb file to their own
 use cases. Take note that the remaining part of the ruby code is unfortunately
 not distributed here; it used to be published on rubygems.org, but for several
 reasons taking too long to explain, I am currently not using rubygems.org. I
