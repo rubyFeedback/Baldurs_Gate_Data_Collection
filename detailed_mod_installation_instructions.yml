@@ -24,17 +24,12 @@
 # ============================================================================================ #
 # Todos:
 #
-# - Ensure latest Forgotten Armament.
-#   https://www.morpheus-mart.com/forgotten-armament
+#   - Play Siege of Dragonspear at a later time.
 #
-# - Play Siege of Dragonspear at a later time.
 # ============================================================================================ #
 
 # ============================================================================================ #
 # === EET mod
-# ============================================================================================ #
-# Latest version:   14.1       # The latest official version.
-# Latest update:    24.04.2026 # We use the git clone sources.
 # ============================================================================================ #
 # https://github.com/Gibberlings3/EET/
 # https://github.com/Gibberlings3/EET/archive/refs/tags/v14.1.zip
@@ -74,27 +69,24 @@
 #
 # This mod has been created by szaumoor.
 # ============================================================================================ #
-# Latest version:   1.0.3      # The latest official version.
-# Latest update:    25.04.2026 # We use the git clone sources.
-# ============================================================================================ #
 # https://github.com/szaumoor/ZS_Consumables
 # mkdir 003_Kaelyns_Consumables-v1.0.3-published_on_22.03.2026
 # wget https://github.com/szaumoor/ZS_Consumables/releases/download/1.0.5/win-ZS_Consumables-1.0.5.zip
 # ============================================================================================ #
-!ruby/symbol consumables:
+!ruby/symbol consumables_mod:
  name_to_use:       ZS_consumables_mod
  real_name:         ZS_Consumables
  github:            https://github.com/szaumoor/ZS_Consumables
- latest_release_at: https://github.com/szaumoor/ZS_Consumables/releases/download/1.0.5/win-ZS_Consumables-1.0.5.zip
- last_checked:      25.04.2026
- latest_version:    25.04.2026
- use_git_checkout:  true
+ latest_release_at: https://github.com/szaumoor/ZSTweaks/releases/download/1.6.9/win-ZSTweaks-1.6.9.zip
+ last_checked:      10.05.2026
+ latest_version:    1.6.9 # Version 1.6.9 was released on the 04.04.2026. 
+ use_git_checkout:  false # should be toggled to true at a later time
 
 # ============================================================================================ #
 # === Lunia for Good Parties mod
-# ============================================================================================ #
-# Latest version:   1.9.1      # The latest official version.
-# Latest update:    25.04.2026 # We use the git clone sources.
+#
+# This mod allows all non-evil characters, that have a reputation of 14 or above,
+# to travel to Lunia.
 # ============================================================================================ #
 # https://github.com/bucketfulofsunshine/Lunia-For-Good-Parties
 # mkdir 004_Lunia_for_Good_Parties-v1.3.2-published_on_22.03.2026
@@ -113,14 +105,7 @@
 # === Duality odd quest mod
 #
 # This mod adds some difficult encounters that takes place in Chapter 6 in the Umar Hills,
-# after you defeated the Shade Lord.
-# ============================================================================================ #
-# Latest version:   2.3b1      # The latest official version.
-# Latest update:    25.04.2026 # We use the git clone sources.
-# ============================================================================================ #
-# https://github.com/Spellhold-Studios/Duality-Odd-Quest-Mod/
-# mkdir 005_Duality_Odd_Quest_Mod_v2.3b1_published_on_22.03.2026
-# wget https://github.com/Spellhold-Studios/Duality-Odd-Quest-Mod/releases/download/v2.3b1/imnesvale-v2.3b1.zip
+# after the party did defeate the Shade Lord.
 # ============================================================================================ #
 # https://github.com/Spellhold-Studios/Duality-Odd-Quest-Mod
 # https://github.com/Spellhold-Studios/Duality-Odd-Quest-Mod/releases/
@@ -131,7 +116,7 @@
  real_name:         Duality-Odd-Quest-Mod
  github:            https://github.com/Spellhold-Studios/Duality-Odd-Quest-Mod/
  latest_release_at: https://github.com/Spellhold-Studios/Duality-Odd-Quest-Mod/archive/refs/tags/V1.9.1.zip
- last_checked:      25.04.2026
+ last_checked:      18.05.2026
  latest_version:    25.04.2026
  use_git_checkout:  true
 
@@ -141,9 +126,6 @@
 # Should come early. This mod contains Artemis Entreri and the kidnapping of
 # Boo, among other quests.
 # ============================================================================================ #
-# Latest version:   v29.1      # The latest official version.
-# Latest update:    25.04.2026 # We use the git clone sources.
-# ============================================================================================ #
 # https://github.com/Pocket-Plane-Group/UnfinishedBusiness
 # mkdir 04_Unfinished_Business-v29-05.06.2025; cd 04_Unfinish*
 # gitclone https://github.com/Pocket-Plane-Group/UnfinishedBusiness
@@ -152,13 +134,13 @@
 # https://github.com/Pocket-Plane-Group/UnfinishedBusiness/releases/
 # https://github.com/Pocket-Plane-Group/UnfinishedBusiness/releases/tag/v2.1
 # ============================================================================================ #
-!ruby/symbol unfinished_business:      # (6) Unfinished Business Mod
+!ruby/symbol Unfinished_Business_mod:
  name_to_use:       Unfinished_Business_mod
  real_name:         UnfinishedBusiness
  github:            https://github.com/Pocket-Plane-Group/UnfinishedBusiness
  latest_release_at: https://github.com/Pocket-Plane-Group/UnfinishedBusiness/archive/refs/tags/V1.9.1.zip
- last_checked:      25.04.2026
- latest_version:    25.04.2026
+ latest_version:    14.05.2026
+ last_checked:      16.05.2026
  use_git_checkout:  true
 
 # ============================================================================================ #
@@ -166,9 +148,6 @@
 #
 # Should come early. This mod contains Artemis Entreri and the kidnapping of
 # Boo, among other quests.
-# ============================================================================================ #
-# Latest version:   1.5        # The latest official version.
-# Latest update:    08.02.2026 # We use the git clone sources.
 # ============================================================================================ #
 # https://github.com/LCA-EET/Lichdom/
 # mkdir 05_Lichdom_Mod-v1.4b-released-on-09.05.2025; cd *Lichdom*
@@ -182,12 +161,12 @@
  real_name:         Lichdom
  github:            https://github.com/LCA-EET/Lichdom
  latest_release_at: https://github.com/LCA-EET/Lichdom/releases/download/v1.5/Install_Lichdom.zip
- last_checked:      25.04.2026
+ last_checked:      14.05.2026
  latest_version:    1.5
  use_git_checkout:  false # true
 
 # ============================================================================================ #
-# === peacespeaker mod
+# === peacespeaker mod aka peacekeeper
 # ============================================================================================ #
 # Latest version:   2.3        # The latest official version.
 # Latest update:    25.04.2026 # We use the git clone sources.
@@ -208,6 +187,26 @@
  latest_version:    25.04.2026
  use_git_checkout:  true
  
+
+# ============================================================================================ #
+# === peacespeaker mod
+# ============================================================================================ #
+# https://github.com/bucketfulofsunshine/peacespeaker
+# mkdir 05_Lichdom_Mod-v1.4b-released-on-09.05.2025; cd *Lichdom*
+# wget https://github.com/LCA-EET/peacespeaker/releases/download/v1.4b/Install_Lichdom.zip; tarb *zip
+# ============================================================================================ #
+# https://github.com/bucketfulofsunshine/peacespeaker
+# https://github.com/bucketfulofsunshine/peacespeaker/releases/tag/v1.4a
+# ============================================================================================ #
+!ruby/symbol Project_Javelin_mod:
+ name_to_use:       Project_Javelin_mod
+ real_name:         Project_Javelin
+ github:            https://github.com/Gibberlings3/Project_Javelin
+ latest_release_at: https://github.com/Gibberlings3/Project_Javelin
+ last_checked:      09.05.2026
+ latest_version:    04.05.2026
+ use_git_checkout:  true
+
 # ============================================================================================ #
 # === The Dvaradime NPC some NPC - is a fairly nice mod.
 # ============================================================================================ #
@@ -225,25 +224,6 @@
  last_checked:      25.04.2026
  latest_version:    25.04.2026
  use_git_checkout:  false
-
-# ============================================================================================ #
-# === Afaaq the Djinni Companion
-# ============================================================================================ #
-# Latest version:   2.11       # The latest official version.
-# Latest update:    25.04.2026 # 
-# ============================================================================================ #
-# https://github.com/Argent77/DjinniCompanion
-# mkdir 06_Afaaq_the_Djinni_Companion_v2.11_released_on_05.01.2025; cd 30_Afaaq*;
-# wget https://github.com/Argent77/DjinniCompanion/releases/download/v2.11/win-A7-DjinniCompanion-v2.11.zip; tarb *zip
-# ============================================================================================ #
-!ruby/symbol Afaaq_the_Djinni_Companion:
- name_to_use:       Afaaq_the_Djinni_Companion_mod
- real_name:         DjinniCompanion
- github:            https://github.com/Argent77/DjinniCompanion
- latest_release_at: https://github.com/Argent77/DjinniCompanion
- last_checked:      25.04.2026
- latest_version:    25.04.2026
- use_git_checkout:  true
 
 # ============================================================================================ #
 # === The Oops mod
@@ -272,13 +252,6 @@
 # ============================================================================================ #
 # === The Tangled Oak isle mod
 # ============================================================================================ #
-# Latest version:   4.7        # The latest official version.
-# Latest update:    10.01.2026 # 
-# ============================================================================================ #
-# https://downloads.weaselmods.net/download/tangled-oak-isle/
-# mkdir 009_The_Tangled_Oak_Isle_mod_v4.6-released-on-28.12.2025; cd 009_The_Tangled*
-# wget https://github.com/Deratiseur/Oops/releases/download/v4.4.1/win-Derats_Oops-v4.4.1.zip
-# ============================================================================================ #
 # https://downloads.weaselmods.net/download/tangled-oak-isle/
 # ============================================================================================ #
 !ruby/symbol the_tangled_oak_isle_mod:
@@ -291,14 +264,19 @@
  use_git_checkout:  false
 
 # ============================================================================================ #
+# === Poisoned_Pathways_mod
+# ============================================================================================ #
+!ruby/symbol Poisoned_Pathways_mod:
+ name_to_use:       Poisoned_Pathways_mod
+ real_name:         Poisoned-Pathways
+ github:            https://github.com/AciferBG/Poisoned-Pathways
+ latest_release_at: https://github.com/AciferBG/Poisoned-Pathways/releases/download/v1.0/Poisoned_Pathways_V_1.0.zip
+ last_checked:      26.06.2026
+ latest_version:    1.0
+ use_git_checkout:  false
+
+# ============================================================================================ #
 # === The Ooze Lounge Mod                                                           (ooze tag)
-# ============================================================================================ #
-# Latest version:   3.0        # The latest official version.
-# Latest update:    08.01.2026 # 
-# ============================================================================================ #
-# https://downloads.weaselmods.net/download/tangled-oak-isle/
-# mkdir 010_The_Ooze_Lounge_v2.99-28.12.2025; cd 010_The_Oo*
-# wget https://github.com/Deratiseur/Oops/releases/download/v4.4.1/win-Derats_Oops-v4.4.1.zip
 # ============================================================================================ #
 # https://downloads.weaselmods.net/download/tangled-oak-isle/
 # ============================================================================================ #
@@ -458,13 +436,19 @@
  use_git_checkout:  false
 
 # ============================================================================================ #
+# === SoD_Items_to_BG2EE_EET_mod
+# ============================================================================================ #
+!ruby/symbol SoD_Items_to_BG2EE_EET_mod:
+ name_to_use:       SoD_Items_to_BG2EE_EET_mod
+ real_name:         sod-items-to-bg2ee-eet
+ github:            https://github.com/dark0dave/sod-items-to-bg2ee-eet
+ latest_release_at: https://github.com/dark0dave/sod-items-to-bg2ee-eet
+ last_checked:      11.06.2026
+ latest_version:    4.0.0
+ use_git_checkout:  true
+
+# ============================================================================================ #
 # === ZS_ItemPack
-# ============================================================================================ #
-# Latest version:   1.0.2      # The latest official version.
-# Latest update:    12.01.2026 # 
-# ============================================================================================ #
-# mkdir 018_ZS_ItemPack_v1.0.2-released-on-23.10.2025; cd 018_ZS_Item*
-# wget https://github.com/szaumoor/ZS_ItemPack/releases/download/1.0.2/ZS_ItemPack_1.0.2.zip
 # ============================================================================================ #
 !ruby/symbol ZS_ItemPack_mod:
  name_to_use:       ZS_ItemPack_mod
@@ -496,9 +480,6 @@
 # === Paina the NPC mod
 #
 # Another NPC mod. Should probably come fairly late.
-# ============================================================================================ #
-# Latest version:   1.9        # The latest official version.
-# Latest update:    30.01.2026 # 
 # ============================================================================================ #
 # mkdir 020_Paina_NPC_mod_v1.9_released_on_26.04.2024; cd 020_Pain*
 # wget https://github.com/ArtemiusI/Pai-Na-NPC-mod-for-BG2-EE/archive/refs/tags/v1.9.zip; tarb *zip
@@ -542,9 +523,6 @@
 # ============================================================================================ #
 # === The Wings mod
 # ============================================================================================ #
-# Latest version:   1.0.8      # The latest official version.
-# Latest update:    30.01.2026 # 
-# ============================================================================================ #
 # mkdir 024_Wings_mod_v1.0.8-released-on-08.10.2024; cd 024_Wings_mod_v1.0*;
 # wget https://github.com/Skitia/Wings/archive/refs/tags/v1.08.zip; tarb *zip
 # ============================================================================================ #
@@ -556,7 +534,7 @@
  real_name:         Wings
  github:            https://github.com/Skitia/Wings/
  latest_release_at: https://github.com/Skitia/Wings/releases
- last_checked:      25.04.2026
+ last_checked:      09.05.2026
  latest_version:    1.0.8
  use_git_checkout:  true
 
@@ -584,9 +562,8 @@
 
 # ============================================================================================ #
 # === Wares of the Planes mod
-# ============================================================================================ #
-# Latest version:   2.2        # The latest official version.
-# Latest update:    30.01.2026 # 
+#
+# Check out the Eyes of Mask item.
 # ============================================================================================ #
 # https://github.com/Deratiseur/Jazon/
 # mkdir 034_A7-WaresOfThePlanes_published-on-the-22.02.2025; cd 034_A7-WaresOfThePlanes_published-on-the-22.02.2025; git_clone https://github.com/Argent77/A7-WaresOfThePlanes
@@ -607,9 +584,6 @@
 
 # ============================================================================================ #
 # === The search guild mod
-# ============================================================================================ #
-# Latest version:   1.5.1      # The latest official version.
-# Latest update:    30.01.2026 # 
 # ============================================================================================ #
 # https://github.com/Austin-BG/SearchGuild
 # mkdir 038_Search_Guild_Mod_v1.5.1_released_on_the_24.08.2025; cd 038_Search_Guild_Mod_v1.4.2_
@@ -696,27 +670,6 @@
  use_git_checkout:  true
 
 # ============================================================================================ #
-# === The Ajoc mod
-# ============================================================================================ #
-# Latest version:   1.7        # The latest official version.
-# Latest update:    25.04.2026 # 
-# ============================================================================================ #
-# mkdir 022_Alternatives_mod_v15_released_on_22.02.2025; cd 022_Alternat*; git_clone https://github.com/Gibberlings3/Alternatives
-# ============================================================================================ #
-# https://www.gibberlings3.net/mods/quests/alternatives/
-# https://github.com/Gibberlings3/Alternatives
-# https://github.com/Gibberlings3/Alternatives/releases
-# ============================================================================================ #
-!ruby/symbol The_Ajoc_mod:
- name_to_use:       The_Ajoc_mod
- real_name:         AjocMod
- github:            https://github.com/Spellhold-Studios/AjocMod
- latest_release_at: https://github.com/Spellhold-Studios/AjocMod/releases/download/v.1.4.1/detective-guild-of-athkatla-1.4.1.zip; tarb *zip
- last_checked:      25.04.2026
- latest_version:    15
- use_git_checkout:  true
-
-# ============================================================================================ #
 # === The Slithering menace mod
 #
 # This mod adds a small "quest" containing "an encounter of serpentine nature"
@@ -762,6 +715,20 @@
  last_checked:      25.04.2026
  latest_version:    6.5.1.1
  use_git_checkout:  true
+
+# ============================================================================================ #
+# === The Return of Hephernaan mod
+# ============================================================================================ #
+# https://downloads.weaselmods.net/download/verrsza-bg2ee/
+# ============================================================================================ #
+!ruby/symbol The_Return_of_Hephernaan_mod:
+ name_to_use:       The_Return_of_Hephernaan_mod
+ real_name:         hephernaan-bg2
+ github:            https://downloads.weaselmods.net/download/hephernaan-bg2/
+ latest_release_at: https://downloads.weaselmods.net/download/hephernaan-bg2/?wpdmdl=281&refresh=6a272b1f2e5d51780951839
+ last_checked:      30.05.2026
+ latest_version:    4.0
+ use_git_checkout:  false
 
 # ============================================================================================ #
 # === VerrBG2 (Verr'Sza) by Lava
@@ -811,9 +778,6 @@
 # ============================================================================================ #
 # === The Dreadful Tales mod
 # ============================================================================================ #
-# Latest version:   1.8.6      # The latest official version.
-# Latest update:    27.04.2026 # 
-# ============================================================================================ #
 # mkdir 027_The_Dreadful_Tales_Juniper_and_the_Stone_Leech_mod_v1.8.1_released_on-13.04.2025; cd 23_The_Dread*
 # wget https://github.com/Gibberlings3/CowledMenace/releases/download/1.0.3/cowledmenace-v1.0.3.exe
 # ============================================================================================ #
@@ -828,6 +792,19 @@
  last_updated:       27.04.2026
  last_checked:      27.04.2026
  latest_version:    1.8.6
+ use_git_checkout:  false
+
+# ============================================================================================ #
+# === The_Ink_gallery_mod
+# ============================================================================================ #
+!ruby/symbol The_Ink_gallery_mod:
+ name_to_use:       The_Ink_gallery_mod
+ real_name:         the-ink-gallery
+ github:            https://downloads.weaselmods.net/download/the-ink-gallery/
+ latest_release_at: https://downloads.weaselmods.net/download/the-ink-gallery/?wpdmdl=913&refresh=6a08cc86544111778961542
+ last_updated:      16.05.2026
+ last_checked:      16.05.2026
+ latest_version:    1.0.1
  use_git_checkout:  false
 
 # ============================================================================================ #
@@ -1383,12 +1360,6 @@
 
 # ============================================================================================ #
 # === 044) LoveConquersAll_EE
-#
-# Last update:             28.02.2026
-# Last version:            1.5.13
-#
-# mkdir 044_LoveConquersAll_EE-v1.5.9a-released-on-the-03.01.2026; cd *044*
-# wgetzip https://github.com/LCA-EET/LCA/releases/download/v1.5.9a/LoveConquersAll_EE.zip
 # ============================================================================================ #
 # https://github.com/LCA-EET/
 # https://github.com/LCA-EET/LCA/releases/tag/v1.5.9a
@@ -1398,8 +1369,8 @@
  real_name:         LCA
  github:            https://github.com/LCA-EET/LCA
  latest_release_at: https://github.com/LCA-EET/LCA
- last_updated:      08.05.2025
- last_checked:      30.04.2026
+ last_updated:      28.05.2025
+ last_checked:      28.05.2026
  latest_version:    1.5.13
  use_git_checkout:  true
 
@@ -1632,25 +1603,6 @@
  last_checked:      30.04.2026
  latest_version:    7.0.0
  use_git_checkout:  true
-
-# ============================================================================================ #
-# === 041) Dark Tidings
-# ============================================================================================ #
-# mkdir 041_Dark_Tidings_v2.8.1_released-on-the-03.01.2026
-# gitclone https://github.com/AciferBG/Dark-Tidings/
-# ============================================================================================ #
-# https://github.com/AciferBG/Dark-Tidings/
-# https://github.com/AciferBG/Dark-Tidings/releases/download/v2.8/Dark_Tidings_v2.8.zip
-# ============================================================================================ #
-!ruby/symbol Dark_Tidings_mod:
- name_to_use:       Dark_Tidings_mod
- real_name:         Dark-Tidings
- github:            https://github.com/AciferBG/Dark-Tidings/
- latest_release_at: https://github.com/AciferBG/Dark-Tidings/
- last_updated:      02.01.2026
- last_checked:      30.04.2026
- latest_version:    7.0.0
- use_git_checkout:  true
  
 # ============================================================================================ #
 # === 058) D2-weapon-mod
@@ -1676,8 +1628,6 @@
 # === 061) Viconia Revamped
 #
 # Also gives her a unique ability.
-#
-# mkdir 061_Viconia_Revamped-v7.3-published-on-the-07.04.2025; cd 59061Viconia*
 # ============================================================================================ #
 # https://downloads.weaselmods.net/download/viconia-revamped/
 # ============================================================================================ #
@@ -1686,9 +1636,9 @@
  real_name:         viconia-revamped
  github:            https://downloads.weaselmods.net/download/viconia-revamped/
  latest_release_at: https://downloads.weaselmods.net/download/viconia-revamped/?wpdmdl=139&refresh=69efddff139301777327615
- last_updated:      17.08.2025
- last_checked:      30.04.2026
- latest_version:    7.3
+ last_updated:      14.05.2026
+ last_checked:      14.05.2026
+ latest_version:    7.4.1
  use_git_checkout:  false
 
 # ============================================================================================ #
@@ -1720,8 +1670,7 @@
 # === 069) The Dusk NPC mod
 #
 # Last update:             03.01.2026
-# Last version:            1.3.1
-#
+# ============================================================================================ #
 # mkdir 069_Autumns_Twilight_mod_v1.3.1_published_on_the_03.01.2026; cd 60_Aut*; wget https://github.com/evancauteren/bg2-autumns-twilight-mod/releases/download/v1.3.0/bg2-autumns-twilight-mod-1_3_0.zip; tarb *zip
 # git clone https://github.com/evancauteren/bg2-autumns-twilight-mod/
 # ============================================================================================ #
@@ -1733,7 +1682,7 @@
  github:            https://github.com/evancauteren/bg2-autumns-twilight-mod/
  latest_release_at: https://github.com/evancauteren/bg2-autumns-twilight-mod/
  last_updated:      17.08.2025
- last_checked:      30.04.2026
+ last_checked:      01.05.2026
  latest_version:    7.3
  use_git_checkout:  true
 
@@ -1797,30 +1746,24 @@
  use_git_checkout:  true
 
 # ============================================================================================ #
-# === 042) EE Fixpack
+# === The Ajoc mod
 #
-# Last update:             03.01.2026
-# Last version:            100.0.1
-#
-# I am not quite sure what the difference is to:
-#
-#   https://github.com/Gibberlings3/BG2-Fixpack
-#
-# mkdir 042_EE_Fixpack_mod_v100.0.1-released-on-the-03.01.2026; cd 045_EE_Fixpack*; gitclone https://github.com/Gibberlings3/EE_Fixpack
+# This is an old mod that adds a medium-sized quest to Shadows of Amn, along with new
+# areas, monsters, and items. The quest starts in Athkatla, where you are asked to
+# escort a rich man who is being hunted by mages.
 # ============================================================================================ #
-# https://github.com/Gibberlings3/EE_Fixpack
+# https://github.com/Spellhold-Studios/AjocMod
+# https://github.com/Gibberlings3/Alternatives
+# https://github.com/Gibberlings3/Alternatives/releases
 # ============================================================================================ #
-!ruby/symbol EE_Fixpack_mod:
- name_to_use:       EE_Fixpack_mod
- real_name:         EE_Fixpack
- github:            https://github.com/Gibberlings3/EE_Fixpack
- latest_release_at: https://github.com/Gibberlings3/EE_Fixpack
- last_updated:      17.08.2025
- last_checked:      30.04.2026
- latest_version:    1.8.4
+!ruby/symbol The_Ajoc_mod:
+ name_to_use:       The_Ajoc_mod
+ real_name:         AjocMod
+ github:            https://github.com/Spellhold-Studios/AjocMod
+ latest_release_at: https://github.com/Spellhold-Studios/AjocMod/releases/download/v.1.4.1/detective-guild-of-athkatla-1.4.1.zip; tarb *zip
+ last_checked:      17.05.2026
+ latest_version:    15
  use_git_checkout:  true
-
-
 
 # ============================================================================================ #
 # === 21, Hidden Adventures
@@ -1899,6 +1842,10 @@
 
 # ============================================================================================ #
 # === 078) Tactics Remix
+#
+# Some options can make the game very hard. Be especially cautious about improved mages
+# AI and stronger undead and smarter liches. The combination can really make games 
+# very hard.
 # ============================================================================================ #
 # mkdir 078_Tactics_Remix_5.0_released_on_03.01.2026; cd *Tactics_Remix*
 # ============================================================================================ #
@@ -1937,7 +1884,9 @@
 # ============================================================================================ #
 # === 61 Forgotten Armament
 #
-# mkdir 61_Forgotten_Armament_v4.5.1_released_on_31.12.2024
+# Unsure whether this works flawlessly; I have some mod that keeps preventing the shadow
+# thief keys from being transferred. Perhaps in future run-throughs, this quest should be
+# solved earlier.
 # ============================================================================================ #
 # https://www.morpheus-mart.com/forgotten-armament
 # ============================================================================================ #
@@ -1970,7 +1919,7 @@
  use_git_checkout:  true
 
 # ============================================================================================ #
-# === 081) Tweaks                                                                 (tweaks tag)
+# === Tweaks                                                                      (tweaks tag)
 #
 # This mod should come last, e. g. the last to be installed - at the least I found it is
 # best if it comes last.
@@ -1991,6 +1940,60 @@
  use_git_checkout:  true
 
 # ============================================================================================ #
+# === 041) Dark Tidings
+# ============================================================================================ #
+# mkdir 041_Dark_Tidings_v2.8.1_released-on-the-03.01.2026
+# gitclone https://github.com/AciferBG/Dark-Tidings/
+# ============================================================================================ #
+# https://github.com/AciferBG/Dark-Tidings/
+# https://github.com/AciferBG/Dark-Tidings/releases/download/v2.8/Dark_Tidings_v2.8.zip
+# ============================================================================================ #
+!ruby/symbol Dark_Tidings_mod:
+ name_to_use:       Dark_Tidings_mod
+ real_name:         Dark-Tidings
+ github:            https://github.com/AciferBG/Dark-Tidings/
+ latest_release_at: https://github.com/AciferBG/Dark-Tidings/
+ last_updated:      02.01.2026
+ last_checked:      30.04.2026
+ latest_version:    7.0.0
+ use_git_checkout:  true
+
+# ============================================================================================ #
+# === Afaaq the Djinni Companion
+# ============================================================================================ #
+# https://github.com/Argent77/DjinniCompanion
+# ============================================================================================ #
+!ruby/symbol Afaaq_the_Djinni_Companion:
+ name_to_use:       Afaaq_the_Djinni_Companion_mod
+ real_name:         DjinniCompanion
+ github:            https://github.com/Argent77/DjinniCompanion
+ latest_release_at: https://github.com/Argent77/DjinniCompanion/releases/download/v2.11/win-A7-DjinniCompanion-v2.11.zip
+ last_checked:      10.05.2026
+ latest_version:    25.04.2026
+ use_git_checkout:  true
+
+# ============================================================================================ #
+# === EE Fixpack
+#
+# I am not quite sure what the difference is to:
+#
+#   https://github.com/Gibberlings3/BG2-Fixpack
+#
+# mkdir 042_EE_Fixpack_mod_v100.0.1-released-on-the-03.01.2026; cd 045_EE_Fixpack*; gitclone https://github.com/Gibberlings3/EE_Fixpack
+# ============================================================================================ #
+# https://github.com/Gibberlings3/EE_Fixpack
+# ============================================================================================ #
+!ruby/symbol EE_Fixpack_mod:
+ name_to_use:       EE_Fixpack_mod
+ real_name:         EE_Fixpack
+ github:            https://github.com/Gibberlings3/EE_Fixpack
+ latest_release_at: https://github.com/Gibberlings3/EE_Fixpack
+ last_updated:      17.08.2025
+ last_checked:      30.04.2026
+ latest_version:    1.8.4
+ use_git_checkout:  true
+
+# ============================================================================================ #
 # === END                                                                            (end tag)
 # ============================================================================================ #
 
@@ -2000,7 +2003,7 @@
 # ============================================================================================ #
 
 # ============================================================================================ #
-# === 1) Made in Heaven mod
+# === Made in Heaven mod
 #
 # Latest version: v7
 #
@@ -2014,8 +2017,8 @@
 # ============================================================================================ #
 # === 2) The Wheels of Prophecy mod
 #
-# Seems to be no longer maintained.
-#
+# Seems to be no longer maintained. Last update to it was in 2022.
+# ============================================================================================ #
 # https://github.com/Gibberlings3/WheelsOfProphecy
 # ============================================================================================ #
 
@@ -2025,8 +2028,6 @@
 # https://github.com/Spellhold-Studios/Fading-Promises
 # https://github.com/Spellhold-Studios/Fading-Promises/releases/tag/v9
 # git clone https://github.com/Spellhold-Studios/Fading-Promises
-# ============================================================================================ #
-# mkdir 05_Fading_Promises_v9-26.01.2025
 # ============================================================================================ #
 # - Fading_Promises_v9-26.01.2025
 
@@ -2048,8 +2049,9 @@
 # === 6) Improved_Asylum_mod-released-on-13.04.2020
 #
 # An interesting mod, but unfortunately also rather overpowered. If there were rebalancing
-# changes I may re-consider, but for now I can not recommend this mod.
-#
+# changes I may re-consider, but for now I can not recommend this mod. It was last
+# updated in the year 2020.
+# ============================================================================================ #
 # https://github.com/Spellhold-Studios/Improved-Asylum
 # ============================================================================================ #
 
@@ -2143,8 +2145,6 @@
 # I stopped using it. May reconsider if it becomes actively maintaind again.
 #
 # Old URL was: https://rawgit.com/K4thos/EET_Tweaks/master/EET_Tweaks/readme-EET_Tweaks.html
-#
-# mkdir 66_Unofficial_Item_Pack_v2.7b-released-on-06.01.2025
 # ============================================================================================ #
 # - Unofficial_Item_Pack_v2.7b-released-on-06.01.2025
 # - One_Item_Mod_to_Rule_them_All-v3.0-04.12.2023
@@ -2154,10 +2154,6 @@
 #
 # I had some issue with this mod in the past; may have to revisit it at a later point
 # in time.
-#
-# mkdir 46_Fishing_for_Trouble_mod_v3.2.10_released_on_29.01.2025
-# cd 46_Fishing_for_Trouble_mod_v3.2.10_released_on_29.01.2025
-# wget https://github.com/InfinityMods/FishingForTrouble/releases/download/v3.2.10/fishing-for-trouble-v3.2.10.zip
 # ============================================================================================ #
 # https://github.com/InfinityMods/FishingForTrouble
 # ============================================================================================ #
