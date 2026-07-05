@@ -29,6 +29,84 @@
 # ============================================================================================ #
 
 # ============================================================================================ #
+# === Insurmountable_Challenges_mod
+#
+# This mod is also known as "Telim'Gar's Insurmountable Challenges".
+# ============================================================================================ #
+# https://github.com//Deratiseur/Defis
+# ============================================================================================ #
+!ruby/symbol Insurmountable_Challenges_mod:
+ name_to_use:       The_ogre_and_the_gnome_mod
+ real_name:         Defis
+ github:            https://github.com//Deratiseur/Defis
+ latest_release_at: https://github.com/Deratiseur/Gilbertus/releases/tag/v2.0
+ last_updated:      04.06.2026
+ last_checked:      04.07.2026
+ latest_version:    3.1
+ use_git_checkout:  true
+
+# ============================================================================================ #
+# === The_ogre_and_the_gnome_mod
+# ============================================================================================ #
+# https://github.com//Deratiseur/Ogre
+# ============================================================================================ #
+!ruby/symbol The_ogre_and_the_gnome_mod:
+ name_to_use:       The_ogre_and_the_gnome_mod
+ real_name:         Ogre
+ github:            https://github.com//Deratiseur/Ogre
+ latest_release_at: https://github.com/Deratiseur/Gilbertus/releases/tag/v2.0
+ last_updated:      04.06.2026
+ last_checked:      04.07.2026
+ latest_version:    6.1
+ use_git_checkout:  true
+
+# ============================================================================================ #
+# === Gilbertus
+#
+# Buy this one late, when you have a lot of money.
+# ============================================================================================ #
+# https://github.com/Deratiseur/Gilbertus
+# ============================================================================================ #
+!ruby/symbol Gilbertus_mod:
+ name_to_use:       Gilbertus_mod
+ real_name:         Gilbertus
+ github:            https://github.com/Deratiseur/Gilbertus
+ latest_release_at: https://github.com/Deratiseur/Gilbertus/releases/tag/v2.0
+ last_updated:      04.06.2026
+ last_checked:      04.07.2026
+ latest_version:    6.1
+ use_git_checkout:  true
+
+# ============================================================================================ #
+# === Viconia Revamped
+#
+# Also gives her a unique ability.
+# ============================================================================================ #
+# https://downloads.weaselmods.net/download/viconia-revamped/
+# ============================================================================================ #
+!ruby/symbol Viconia_Revamped_mod:
+ name_to_use:       Viconia_Revamped_mod
+ real_name:         viconia-revamped
+ github:            https://downloads.weaselmods.net/download/viconia-revamped/
+ latest_release_at: https://downloads.weaselmods.net/download/viconia-revamped/?wpdmdl=139&refresh=69efddff139301777327615
+ last_updated:      14.05.2026
+ last_checked:      14.05.2026
+ latest_version:    7.4.1
+ use_git_checkout:  false
+
+# ============================================================================================ #
+# === Southern Edge mod
+# ============================================================================================ #
+!ruby/symbol Southern_Edge_mod:
+ name_to_use:       Southern_Edge_mod
+ real_name:         southern-edge
+ github:            https://downloads.weaselmods.net/download/southern-edge/
+ latest_release_at: https://downloads.weaselmods.net/download/southern-edge/?wpdmdl=36&refresh=69ee4dff647e41777225215
+ last_checked:      03.07.2026
+ latest_version:    6.0
+ use_git_checkout:  false
+
+# ============================================================================================ #
 # === EET mod
 # ============================================================================================ #
 # https://github.com/Gibberlings3/EET/
@@ -40,26 +118,6 @@
  real_name:         EET # This will be used for weidu.exe
  github:            https://github.com/Gibberlings3/EET/ # or https://github.com/CamDawg/EET
  latest_release_at: https://github.com/Gibberlings3/EET/archive/refs/tags/v14.1.zip
- last_checked:      25.04.2026
- latest_version:    25.04.2026
- use_git_checkout:  true
-
-# ============================================================================================ #
-# === Graphical Overhaul mod
-# ============================================================================================ #
-# Latest version:   3.5a       # The latest official version.
-# Latest update:    25.04.2026 # We use the git clone sources.
-# ============================================================================================ #
-# mkdir 002_Baldurs_Gate_Graphical_Overhaul-v3.5a.published_on_21.03.2026; cd *Baldurs_Gate_Graphical_*
-# gitclone https://github.com/Spellhold-Studios/Baldurs-Gate-Graphical-Overhaul
-# wget https://github.com/Spellhold-Studios/Baldurs-Gate-Graphical-Overhaul/releases/download/v3.5/baldurs-gate-graphical-overhaul-v3.5.zip
-# ============================================================================================ #
-!ruby/symbol Graphical_Overhaul:
- name_to_use:       Graphical_Overhaul_mod
- real_name:         Baldurs-Gate-Graphical-Overhaul
- github:            https://github.com/Spellhold-Studios/Baldurs-Gate-Graphical-Overhaul
- latest_release_at: https://github.com/Spellhold-Studios/Baldurs-Gate-Graphical-Overhaul/releases/download/v3.6/baldurs-gate-graphical-overhaul-v3.6.zip
- forum:             https://www.gibberlings3.net/forums/topic/36946-baldurs-gate-graphical-overhaul-bggo-for-eet-bgt-tutu-bgee/
  last_checked:      25.04.2026
  latest_version:    25.04.2026
  use_git_checkout:  true
@@ -210,19 +268,15 @@
 # ============================================================================================ #
 # === The Dvaradime NPC some NPC - is a fairly nice mod.
 # ============================================================================================ #
-# Latest version:   1.6        # The latest official version.
-# Latest update:    30.09.2024 # 
-# ============================================================================================ #
 # https://downloads.weaselmods.net/download/dvaradime/
-# mkdir 07_Dvaradime_the_NPC_v1.6-published-on-30.09.2024; cd 33_Dvara*
 # ============================================================================================ #
 !ruby/symbol dvaradime:
  name_to_use:       Dvaradime_mod
  real_name:         dvaradime
  github:            https://github.com/bucketfulofsunshine/peacespeaker
  latest_release_at: https://downloads.weaselmods.net/download/dvaradime/?wpdmdl=647&refresh=69ea3f1c2a6bd1776959260
- last_checked:      25.04.2026
- latest_version:    25.04.2026
+ last_checked:      30.06.2026
+ latest_version:    1.6
  use_git_checkout:  false
 
 # ============================================================================================ #
@@ -284,9 +338,9 @@
  name_to_use:       The_Ooze_Lounge_mod
  real_name:         oozes-lounge
  github:            https://downloads.weaselmods.net/download/oozes-lounge/
- latest_release_at: https://downloads.weaselmods.net/download/oozes-lounge/?wpdmdl=59&refresh=69e624498919f1776690249
- last_checked:      25.04.2026
- latest_version:    3.0
+ latest_release_at: https://downloads.weaselmods.net/download/oozes-lounge/?wpdmdl=59&refresh=6a3961161b78f1782145302
+ last_checked:      23.05.2026
+ latest_version:    3.1
  use_git_checkout:  false
 
 # ============================================================================================ #
@@ -458,23 +512,6 @@
  last_checked:      25.04.2026
  latest_version:    1.0.2
  use_git_checkout:  true
-
-# ============================================================================================ #
-# === Southern Edge mod
-# ============================================================================================ #
-# Latest version:   6.0        # The latest official version.
-# Latest update:    30.01.2026 # 
-# ============================================================================================ #
-# mkdir 019_Southern_Edge_mod_v.5.3_released_on_28.12.2025; cd 019_Southern*
-# ============================================================================================ #
-!ruby/symbol Southern_Edge_mod:
- name_to_use:       Southern_Edge_mod
- real_name:         southern-edge
- github:            https://downloads.weaselmods.net/download/southern-edge/
- latest_release_at: https://downloads.weaselmods.net/download/southern-edge/?wpdmdl=36&refresh=69ee4dff647e41777225215
- last_checked:      25.04.2026
- latest_version:    3.4
- use_git_checkout:  false
 
 # ============================================================================================ #
 # === Paina the NPC mod
@@ -776,20 +813,16 @@
  use_git_checkout:  true
 
 # ============================================================================================ #
-# === The Dreadful Tales mod
+# === Juniper_and_the_stone_leech_mod
 # ============================================================================================ #
-# mkdir 027_The_Dreadful_Tales_Juniper_and_the_Stone_Leech_mod_v1.8.1_released_on-13.04.2025; cd 23_The_Dread*
-# wget https://github.com/Gibberlings3/CowledMenace/releases/download/1.0.3/cowledmenace-v1.0.3.exe
+# https://downloads.weaselmods.net/download/juniper-and-the-stone-leech/
 # ============================================================================================ #
-# https://github.com/Gibberlings3/CowledMenace/
-# https://github.com/Gibberlings3/CowledMenace/releases
-# ============================================================================================ #
-!ruby/symbol The_Dreadful_Tales_mod:
- name_to_use:       The_Dreadful_Tales_mod
+!ruby/symbol Juniper_and_the_stone_leech_mod:
+ name_to_use:       Juniper_and_the_stone_leech_mod
  real_name:         juniper-and-the-stone-leech
  github:            https://downloads.weaselmods.net/download/juniper-and-the-stone-leech/
  latest_release_at: https://downloads.weaselmods.net/download/juniper-and-the-stone-leech/?wpdmdl=683&refresh=69ef74bd102e71777300669
- last_updated:       27.04.2026
+ last_updated:      27.04.2026
  last_checked:      27.04.2026
  latest_version:    1.8.6
  use_git_checkout:  false
@@ -1085,29 +1118,6 @@
  last_updated:      12.04.2026
  last_checked:      30.04.2026
  latest_version:    3.0
- use_git_checkout:  true
-
-# ============================================================================================ #
-# === 033) Gilbertus
-#
-# Last update:             03.01.2026
-# Last version:            5.1
-#
-# Buy this one late, when you have a lot of money.
-# ============================================================================================ #
-# mkdir 033_Gilbertus-2.1.2_published_on_03.01.2026; cd *033_Gilbertus*2025*
-# gitclone https://github.com/Deratiseur/Gilbertus
-# ============================================================================================ #
-# https://github.com/Deratiseur/Gilbertus
-# ============================================================================================ #
-!ruby/symbol Gilbertus_mod:
- name_to_use:       Gilbertus_mod
- real_name:         Gilbertus
- github:            https://github.com/Deratiseur/Gilbertus
- latest_release_at: https://github.com/Deratiseur/Gilbertus/releases/tag/v2.0
- last_updated:      12.04.2026
- last_checked:      30.04.2026
- latest_version:    5.1
  use_git_checkout:  true
 
 # ============================================================================================ #
@@ -1624,22 +1634,6 @@
  latest_version:    3.2
  use_git_checkout:  true
 
-# ============================================================================================ #
-# === 061) Viconia Revamped
-#
-# Also gives her a unique ability.
-# ============================================================================================ #
-# https://downloads.weaselmods.net/download/viconia-revamped/
-# ============================================================================================ #
-!ruby/symbol Viconia_Revamped_mod:
- name_to_use:       Viconia_Revamped_mod
- real_name:         viconia-revamped
- github:            https://downloads.weaselmods.net/download/viconia-revamped/
- latest_release_at: https://downloads.weaselmods.net/download/viconia-revamped/?wpdmdl=139&refresh=69efddff139301777327615
- last_updated:      14.05.2026
- last_checked:      14.05.2026
- latest_version:    7.4.1
- use_git_checkout:  false
 
 # ============================================================================================ #
 # === 063) Trials of the Luremaster mod
@@ -1804,9 +1798,27 @@
  use_git_checkout:  true
 
 # ============================================================================================ #
-# === 077) The Crucible mod
+# === Graphical Overhaul mod
 # ============================================================================================ #
-# mkdir 077_Crucible_Mod_v4.5_released_on_the_03.01.2026; cd 077_Crucible_Mod*
+# Latest version:   3.5a       # The latest official version.
+# Latest update:    25.04.2026 # We use the git clone sources.
+# ============================================================================================ #
+# mkdir 002_Baldurs_Gate_Graphical_Overhaul-v3.5a.published_on_21.03.2026; cd *Baldurs_Gate_Graphical_*
+# gitclone https://github.com/Spellhold-Studios/Baldurs-Gate-Graphical-Overhaul
+# wget https://github.com/Spellhold-Studios/Baldurs-Gate-Graphical-Overhaul/releases/download/v3.5/baldurs-gate-graphical-overhaul-v3.5.zip
+# ============================================================================================ #
+!ruby/symbol Graphical_Overhaul:
+ name_to_use:       Graphical_Overhaul_mod
+ real_name:         Baldurs-Gate-Graphical-Overhaul
+ github:            https://github.com/Spellhold-Studios/Baldurs-Gate-Graphical-Overhaul
+ latest_release_at: https://github.com/Spellhold-Studios/Baldurs-Gate-Graphical-Overhaul/releases/download/v3.6/baldurs-gate-graphical-overhaul-v3.6.zip
+ forum:             https://www.gibberlings3.net/forums/topic/36946-baldurs-gate-graphical-overhaul-bggo-for-eet-bgt-tutu-bgee/
+ last_checked:      25.04.2026
+ latest_version:    25.04.2026
+ use_git_checkout:  true
+
+# ============================================================================================ #
+# === 077) The Crucible mod
 # ============================================================================================ #
 # https://www.morpheus-mart.com/crucible
 # ============================================================================================ #
@@ -2015,7 +2027,7 @@
 # ============================================================================================ #
 
 # ============================================================================================ #
-# === 2) The Wheels of Prophecy mod
+# === The Wheels of Prophecy mod
 #
 # Seems to be no longer maintained. Last update to it was in 2022.
 # ============================================================================================ #
@@ -2032,13 +2044,13 @@
 # - Fading_Promises_v9-26.01.2025
 
 # ============================================================================================ #
-# === 4) A_mod_for_the_orderly
+# === A_mod_for_the_orderly
 #
 # This mod is also called cliffkey. Should come fairly late. May be obsolete by now.
 # ============================================================================================ #
 
 # ============================================================================================ #
-# === 5) Tales_of_Anegh
+# === Tales_of_Anegh
 #
 # For chapter 6 and beyond. Not sure to recommend it anymore. It seems outdated. If there
 # are any updates to it then perhaps it should be revisited; otherwise I personally can
@@ -2046,7 +2058,7 @@
 # ============================================================================================ #
 
 # ============================================================================================ #
-# === 6) Improved_Asylum_mod-released-on-13.04.2020
+# === Improved_Asylum_mod-released-on-13.04.2020
 #
 # An interesting mod, but unfortunately also rather overpowered. If there were rebalancing
 # changes I may re-consider, but for now I can not recommend this mod. It was last
@@ -2056,18 +2068,19 @@
 # ============================================================================================ #
 
 # ============================================================================================ #
-# === 7) Amber NPC
+# === Amber NPC
 #
 # Not a bad NPC but I decided I don't quite need that NPC, so I stopped installing it.
 # amber-v8.exe
 # ============================================================================================ #
 
 # ============================================================================================ #
-# === 8) Tattoos Mod
+# === Tattoos Mod
 #
 # - Tatoos-02.12.2023                                           # 40, Tatoos mod
 #
-# See: https://forums.beamdog.com/discussion/88006/mod-illo-the-tattooist-a-new-module-for-bg2-bg2ee-eet-and-iwdee
+# See:
+#  https://forums.beamdog.com/discussion/88006/mod-illo-the-tattooist-a-new-module-for-bg2-bg2ee-eet-and-iwdee
 # ============================================================================================ #
 
 # ============================================================================================ #
@@ -2076,7 +2089,7 @@
 # jans-alchemy                                                # 23, that one never worked well for me
 #
 # Great idea but it did not seem to work well for me; has not been upated in a long time
-# either.
+# either, at the least not updated since as of 2020.
 #
 # https://github.com/Spellhold-Studios/Jan-Alchemy
 # ============================================================================================ #
@@ -2139,7 +2152,7 @@
 # - Unusual-Oddities-Shop-v5.0_released_on_15.12.2024
 
 # ============================================================================================ #
-# === 66, Unofficial Item Pack V2.7b
+# === Unofficial Item Pack V2.7b
 #
 # This has Malla's Soul Stone. Great idea, but I think this mod has some issues, so
 # I stopped using it. May reconsider if it becomes actively maintaind again.
@@ -2150,7 +2163,7 @@
 # - One_Item_Mod_to_Rule_them_All-v3.0-04.12.2023
 
 # ============================================================================================ #
-# === 46, Fishing for Trouble mod
+# === Fishing for Trouble mod
 #
 # I had some issue with this mod in the past; may have to revisit it at a later point
 # in time.
