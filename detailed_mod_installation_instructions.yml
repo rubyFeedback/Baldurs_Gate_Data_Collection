@@ -29,6 +29,41 @@
 # ============================================================================================ #
 
 # ============================================================================================ #
+# === The Worldmap Map
+# ============================================================================================ #
+!ruby/symbol The_Worldmap_Map_Mod:
+ name_to_use:       The_Worldmap_Map_Mod
+ real_name:         BP-BGT-Worldmap
+ github:            https://github.com/Spellhold-Studios/BP-BGT-Worldmap
+ latest_release_at: https://github.com/Spellhold-Studios/BP-BGT-Worldmap
+ last_updated:      05.07.2026
+ last_checked:      07.07.2026
+ latest_version:    13.1.1
+ use_git_checkout:  true
+
+# ============================================================================================ #
+# === Lichdom mod
+#
+# Should come early. This mod contains Artemis Entreri and the kidnapping of
+# Boo, among other quests.
+# ============================================================================================ #
+# https://github.com/LCA-EET/Lichdom/
+# mkdir 05_Lichdom_Mod-v1.4b-released-on-09.05.2025; cd *Lichdom*
+# wget https://github.com/LCA-EET/Lichdom/releases/download/v1.4b/Install_Lichdom.zip; tarb *zip
+# ============================================================================================ #
+# https://github.com/LCA-EET/Lichdom/releases/
+# https://github.com/LCA-EET/Lichdom/releases/tag/v1.4a
+# ============================================================================================ #
+!ruby/symbol lichdom:
+ name_to_use:       Lichdom_mod
+ real_name:         Lichdom
+ github:            https://github.com/LCA-EET/Lichdom
+ latest_release_at: https://github.com/LCA-EET/Lichdom/releases/download/v1.5.1/Lichdom_win.zip
+ last_checked:      05.07.2026
+ latest_version:    1.5.1
+ use_git_checkout:  false # true
+
+# ============================================================================================ #
 # === Insurmountable_Challenges_mod
 #
 # This mod is also known as "Telim'Gar's Insurmountable Challenges".
@@ -36,12 +71,12 @@
 # https://github.com//Deratiseur/Defis
 # ============================================================================================ #
 !ruby/symbol Insurmountable_Challenges_mod:
- name_to_use:       The_ogre_and_the_gnome_mod
+ name_to_use:       Insurmountable_Challenges_mod
  real_name:         Defis
  github:            https://github.com//Deratiseur/Defis
- latest_release_at: https://github.com/Deratiseur/Gilbertus/releases/tag/v2.0
+ latest_release_at: https://github.com//Deratiseur/Defis/releases/tag/v2.0
  last_updated:      04.06.2026
- last_checked:      04.07.2026
+ last_checked:      05.07.2026
  latest_version:    3.1
  use_git_checkout:  true
 
@@ -164,6 +199,8 @@
 #
 # This mod adds some difficult encounters that takes place in Chapter 6 in the Umar Hills,
 # after the party did defeate the Shade Lord.
+#
+# It is unfortunately very bugged as of 2026.
 # ============================================================================================ #
 # https://github.com/Spellhold-Studios/Duality-Odd-Quest-Mod
 # https://github.com/Spellhold-Studios/Duality-Odd-Quest-Mod/releases/
@@ -200,28 +237,6 @@
  latest_version:    14.05.2026
  last_checked:      16.05.2026
  use_git_checkout:  true
-
-# ============================================================================================ #
-# === Lichdom mod
-#
-# Should come early. This mod contains Artemis Entreri and the kidnapping of
-# Boo, among other quests.
-# ============================================================================================ #
-# https://github.com/LCA-EET/Lichdom/
-# mkdir 05_Lichdom_Mod-v1.4b-released-on-09.05.2025; cd *Lichdom*
-# wget https://github.com/LCA-EET/Lichdom/releases/download/v1.4b/Install_Lichdom.zip; tarb *zip
-# ============================================================================================ #
-# https://github.com/LCA-EET/Lichdom/releases/
-# https://github.com/LCA-EET/Lichdom/releases/tag/v1.4a
-# ============================================================================================ #
-!ruby/symbol lichdom:
- name_to_use:       Lichdom_mod
- real_name:         Lichdom
- github:            https://github.com/LCA-EET/Lichdom
- latest_release_at: https://github.com/LCA-EET/Lichdom/releases/download/v1.5/Install_Lichdom.zip
- last_checked:      14.05.2026
- latest_version:    1.5
- use_git_checkout:  false # true
 
 # ============================================================================================ #
 # === peacespeaker mod aka peacekeeper
@@ -1502,12 +1517,7 @@
  use_git_checkout:  true
 
 # ============================================================================================ #
-# === 053) Zakrion BG2-v2.0.1
-#
-# Last update:             12.11.2023
-# Last version:            2.0.1
-#
-# mkdir 053_Zakrion_BG2-v2.0.1; cd 053_Zak*;
+# === Zakrion BG2-v2.0.1
 # ============================================================================================ #
 # https://www.gibberlings3.net/files/file/1040-zakrion-for-bg2/
 # ============================================================================================ #
@@ -1594,12 +1604,7 @@
 # ============================================================================================ #
 # === 057) Heart of the Wood
 #
-# Last version:            7.0.0
-#
 # A druidic wand that summons some powerful forest monsters and creatures.
-#
-# mkdir 057_Heart_of_the_Wood_v7.1.1_released_on_22.02.2025; cd 057_Heart*; git_clone https://github.com/Spellhold-Studios/Heart-of-the-Wood
-# git clone https://github.com/Spellhold-Studios/Heart-of-the-Wood
 # ============================================================================================ #
 # https://github.com/Spellhold-Studios/Heart-of-the-Wood
 # https://github.com/Spellhold-Studios/Heart-of-the-Wood/releases/tag/v7.0.0
@@ -1681,13 +1686,7 @@
  use_git_checkout:  true
 
 # ============================================================================================ #
-# === 070) Under-Respresented_Items
-#
-# Last update:             03.01.2026
-# Last version:            14
-#
-# mkdir 070_Under_Represented_Items_v14_03.01.2026
-# gitclone https://github.com/Pocket-Plane-Group/Under-Respresented_Items
+# === Under-Respresented_Items
 # ============================================================================================ #
 # https://github.com/Pocket-Plane-Group/Under-Respresented_Items
 # ============================================================================================ #
@@ -1702,9 +1701,25 @@
  use_git_checkout:  true
 
 # ============================================================================================ #
-# === 065) The Dreadful Tales - In Love Undeath
+# === Jarnips_Bonus_Merchant
+#
+# A bonus merchant.
 # ============================================================================================ #
-# mkdir 065_The_Dreadful_Tales_In_Love_Undeath_v1.8.3-released-on-the-28.12.2025; cd 065_The_Dread*;
+# https://github.com/Carsomyr6/Jarnip
+# ============================================================================================ #
+!ruby/symbol Jarnips_Bonus_Merchant:
+ name_to_use:       Jarnips_Bonus_Merchant
+ real_name:         Jarnip
+ github:            https://github.com/Carsomyr6/Jarnip
+ latest_release_at: https://github.com/Carsomyr6/Jarnip
+ last_updated:      17.08.2025
+ last_checked:      14.07.2026
+ latest_version:    1.0.0
+ use_git_checkout:  true
+
+
+# ============================================================================================ #
+# === The Dreadful Tales - In Love Undeath
 # ============================================================================================ #
 # https://downloads.weaselmods.net/download/in-love-undeath/
 # ============================================================================================ #
@@ -1719,12 +1734,7 @@
  use_git_checkout:  false
 
 # ============================================================================================ #
-# === 072) Tower of Deception
-#
-# Last update:             28.05.2025
-# Last version:            v4.1.0
-#
-# mkdir 072_Tower_of_Deception_v4.1.0_released_on_28.05.2025; cd *072*Tower*of*Dec*; wget https://github.com/Black-Wyrm-Lair/TowerOfDeception/releases/download/v4.1.0/tower-of-deception-v4.1.0.zip ; tarb *zip
+# === Tower of Deception
 # ============================================================================================ #
 # https://github.com/Black-Wyrm-Lair/TowerOfDeception
 # https://github.com/Black-Wyrm-Lair/TowerOfDeception/releases/tag/v4.0.8
@@ -1742,9 +1752,9 @@
 # ============================================================================================ #
 # === The Ajoc mod
 #
-# This is an old mod that adds a medium-sized quest to Shadows of Amn, along with new
-# areas, monsters, and items. The quest starts in Athkatla, where you are asked to
-# escort a rich man who is being hunted by mages.
+# This is an old mod that adds a medium-sized quest to Shadows of Amn, along with new areas,
+# monsters, and items. The quest starts in Athkatla, where you are asked to escort a rich
+# man who is being hunted by mages.
 # ============================================================================================ #
 # https://github.com/Spellhold-Studios/AjocMod
 # https://github.com/Gibberlings3/Alternatives
@@ -1780,10 +1790,7 @@
  use_git_checkout:  true
 
 # ============================================================================================ #
-# === 47, Grey the dog NPC mod
-#
-# mkdir 47_Grey_the_dog_NPC_mod_v10_released_on_29.01.2025
-# git clone https://github.com/Gibberlings3/Grey_The_Dog
+# === Grey the dog NPC mod
 # ============================================================================================ #
 # https://github.com/Gibberlings3/Grey_The_Dog
 # ============================================================================================ #
@@ -1911,24 +1918,6 @@
  last_checked:      30.04.2026
  latest_version:    2.02
  use_git_checkout:  false
-
-# ============================================================================================ #
-# === 080) The Worldmap Map
-# ============================================================================================ #
-# mkdir 080_The_Worldmap_Map_v13.1.1-released-on-the-28.12.2024; cd 080_The_Worldmap*; wget https://github.com/Spellhold-Studios/BP-BGT-Worldmap/releases/download/v13.1.1/worldmap-v13.1.1.zip
-# ============================================================================================ #
-# https://github.com/Spellhold-Studios/BP-BGT-Worldmap
-# https://github.com/Spellhold-Studios/BP-BGT-Worldmap/releases/tag/v13.1.1
-# ============================================================================================ #
-!ruby/symbol The_Worldmap_Map_Mod:
- name_to_use:       The_Worldmap_Map_Mod
- real_name:         BP-BGT-Worldmap
- github:            https://github.com/Spellhold-Studios/BP-BGT-Worldmap
- latest_release_at: https://github.com/Spellhold-Studios/BP-BGT-Worldmap
- last_updated:      28.12.2024
- last_checked:      30.04.2026
- latest_version:    13.1.1
- use_git_checkout:  true
 
 # ============================================================================================ #
 # === Tweaks                                                                      (tweaks tag)
