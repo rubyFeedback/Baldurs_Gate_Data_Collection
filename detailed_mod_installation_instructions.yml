@@ -29,6 +29,118 @@
 # ============================================================================================ #
 
 # ============================================================================================ #
+# === Gone Nuts
+#
+# Note that a druid is required for this quest to be solved.
+# ============================================================================================ #
+# https://github.com/Glittergear/GoneNuts
+# ============================================================================================ #
+!ruby/symbol GoneNuts_mod:
+ name_to_use:       GoneNuts
+ real_name:         GoneNuts
+ github:            https://github.com/Glittergear/GoneNuts
+ latest_release_at: https://github.com/Glittergear/GoneNuts
+ last_updated:      15.12.2024
+ last_checked:      30.04.2026
+ latest_version:    2.1.3
+ use_git_checkout:  true
+
+# ============================================================================================ #
+# === The search guild mod
+# ============================================================================================ #
+# https://github.com/Austin-BG/SearchGuild
+# ============================================================================================ #
+!ruby/symbol The_search_guild_mod:
+ name_to_use:       The_search_guild_mod
+ real_name:         SearchGuild
+ github:            https://github.com/Austin-BG/SearchGuild
+ latest_release_at: https://github.com/Austin-BG/SearchGuild/releases/download/v.1.4.1/detective-guild-of-athkatla-1.4.1.zip; tarb *zip
+ last_update:       01.06.2026
+ last_checked:      18.07.2026
+ latest_version:    1.5.3
+ use_git_checkout:  true
+
+# ============================================================================================ #
+# === ZS_Consumables
+#
+# This mod has been created by szaumoor.
+# ============================================================================================ #
+# https://github.com/szaumoor/ZS_Consumables
+# ============================================================================================ #
+!ruby/symbol consumables_mod:
+ name_to_use:       ZS_consumables_mod
+ real_name:         ZS_Consumables
+ github:            https://github.com/szaumoor/ZS_Consumables
+ latest_release_at: https://github.com/szaumoor/ZS_Consumables/download/1.6.9/win-ZSTweaks-1.6.9.zip
+ last_update:       04.04.2026
+ last_checked:      10.05.2026
+ latest_version:    1.6.9 # Version 1.6.9 was released on the 04.04.2026. 
+ use_git_checkout:  true
+
+# ============================================================================================ #
+# === ZS_ItemPack
+#
+# Adds items into the world of BGEE and BG2EE.
+# ============================================================================================ #
+!ruby/symbol ZS_ItemPack_mod:
+ name_to_use:       ZS_ItemPack_mod
+ real_name:         ZS_ItemPack
+ github:            https://github.com/szaumoor/ZS_ItemPack/
+ latest_release_at: https://github.com/szaumoor/ZS_ItemPack/?wpdmdl=91&refresh=69ea5dc1b24521776967105
+ last_checked:      25.04.2026
+ latest_version:    1.0.2
+ use_git_checkout:  true
+
+# ============================================================================================ #
+# === Will-to-Power mod
+# ============================================================================================ #
+# https://github.com/Spellhold-Studios/Shadows-over-Soubar
+# ============================================================================================ #
+!ruby/symbol Will_to_Power_mod:
+ name_to_use:       Will_to_Power_mod
+ real_name:         Will_to_Power
+ github:            https://github.com/UnearthedArcana/Will_to_Power
+ latest_release_at: https://github.com/UnearthedArcana/Will_to_Power
+ last_updated:      01.09.2025
+ last_checked:      17.07.2026
+ latest_version:    2.13
+ use_git_checkout:  true
+
+# ============================================================================================ #
+# === Shadows over Soubar
+# ============================================================================================ #
+# https://github.com/Spellhold-Studios/Shadows-over-Soubar
+# ============================================================================================ #
+!ruby/symbol Shadows_over_Soubar:
+ name_to_use:       Shadows_over_Soubar
+ real_name:         Shadows-over-Soubar
+ github:            https://github.com/Spellhold-Studios/Shadows-over-Soubar
+ latest_release_at: https://github.com/Spellhold-Studios/Shadows-over-Soubar
+ last_updated:      15.12.2024
+ last_checked:      30.04.2026
+ latest_version:    2.1.3
+ use_git_checkout:  true
+
+# ============================================================================================ #
+# === The Slithering menace mod
+#
+# This mod adds a small "quest" containing "an encounter of serpentine nature" on the
+# pocket plane dimension, as well as a brand new (and quite stylish) item.
+# ============================================================================================ #
+# https://github.com/Spellhold-Studios/Slithering-Menace/
+# https://github.com/Spellhold-Studios/Slithering-Menace/releases/
+# ============================================================================================ #
+!ruby/symbol The_slithering_menace_mod:
+ name_to_use:       The_slithering_menace_mod
+ real_name:         Slithering-Menace
+ github:            https://github.com/Spellhold-Studios/Slithering-Menace/
+ latest_release_at: https://github.com/Spellhold-Studios/Slithering-Menace//releases/download/v.1.4.1/detective-guild-of-athkatla-1.4.1.zip; tarb *zip
+ last_updated:      04.06.2026
+ last_checked:      25.04.2026
+ latest_version:    v4.0.0.0
+ use_git_checkout:  true
+
+# ============================================================================================ #
 # === The Worldmap Map
 # ============================================================================================ #
 !ruby/symbol The_Worldmap_Map_Mod:
@@ -156,24 +268,6 @@
  last_checked:      25.04.2026
  latest_version:    25.04.2026
  use_git_checkout:  true
-
-# ============================================================================================ #
-# === ZS_Consumables
-#
-# This mod has been created by szaumoor.
-# ============================================================================================ #
-# https://github.com/szaumoor/ZS_Consumables
-# mkdir 003_Kaelyns_Consumables-v1.0.3-published_on_22.03.2026
-# wget https://github.com/szaumoor/ZS_Consumables/releases/download/1.0.5/win-ZS_Consumables-1.0.5.zip
-# ============================================================================================ #
-!ruby/symbol consumables_mod:
- name_to_use:       ZS_consumables_mod
- real_name:         ZS_Consumables
- github:            https://github.com/szaumoor/ZS_Consumables
- latest_release_at: https://github.com/szaumoor/ZSTweaks/releases/download/1.6.9/win-ZSTweaks-1.6.9.zip
- last_checked:      10.05.2026
- latest_version:    1.6.9 # Version 1.6.9 was released on the 04.04.2026. 
- use_git_checkout:  false # should be toggled to true at a later time
 
 # ============================================================================================ #
 # === Lunia for Good Parties mod
@@ -489,12 +583,6 @@
 # ============================================================================================ #
 # === Will of the Wisps mod
 # ============================================================================================ #
-# Latest version:   3.5        # The latest official version.
-# Latest update:    12.01.2026 # 
-# ============================================================================================ #
-# mkdir 017_Will_of_the_Wisps_v3.4-released-on-28.12.2025; cd 017_Will_of*
-# gitclone https://github.com/Spellhold-Studios/Golden-Horse
-# ============================================================================================ #
 !ruby/symbol Will_of_the_Wisps_mod:
  name_to_use:       Will_of_the_Wisps_mod
  real_name:         will-of-the-wisps
@@ -514,18 +602,6 @@
  latest_release_at: https://github.com/dark0dave/sod-items-to-bg2ee-eet
  last_checked:      11.06.2026
  latest_version:    4.0.0
- use_git_checkout:  true
-
-# ============================================================================================ #
-# === ZS_ItemPack
-# ============================================================================================ #
-!ruby/symbol ZS_ItemPack_mod:
- name_to_use:       ZS_ItemPack_mod
- real_name:         ZS_ItemPack
- github:            https://github.com/szaumoor/ZS_ItemPack/
- latest_release_at: https://github.com/szaumoor/ZS_ItemPack/?wpdmdl=91&refresh=69ea5dc1b24521776967105
- last_checked:      25.04.2026
- latest_version:    1.0.2
  use_git_checkout:  true
 
 # ============================================================================================ #
@@ -635,25 +711,6 @@
  use_git_checkout:  true
 
 # ============================================================================================ #
-# === The search guild mod
-# ============================================================================================ #
-# https://github.com/Austin-BG/SearchGuild
-# mkdir 038_Search_Guild_Mod_v1.5.1_released_on_the_24.08.2025; cd 038_Search_Guild_Mod_v1.4.2_
-# gitclone https://github.com/Austin-BG/SearchGuild
-# ============================================================================================ #
-# https://github.com/Austin-BG/SearchGuild
-# https://github.com/Austin-BG/SearchGuild/releases/tag/v.1.4.1
-# ============================================================================================ #
-!ruby/symbol The_search_guild_mod:
- name_to_use:       The_search_guild_mod
- real_name:         SearchGuild
- github:            https://github.com/Austin-BG/SearchGuild
- latest_release_at: https://github.com/Austin-BG/SearchGuild/releases/download/v.1.4.1/detective-guild-of-athkatla-1.4.1.zip; tarb *zip
- last_checked:      25.04.2026
- latest_version:    1.5.1
- use_git_checkout:  true
-
-# ============================================================================================ #
 # === FowlWish mod
 # ============================================================================================ #
 # Latest version:   1.4        # The latest official version.
@@ -719,30 +776,6 @@
  latest_release_at: https://github.com/Skitia/SkitiaNPCs/releases/download/v.1.4.1/detective-guild-of-athkatla-1.4.1.zip; tarb *zip
  last_checked:      25.04.2026
  latest_version:    15
- use_git_checkout:  true
-
-# ============================================================================================ #
-# === The Slithering menace mod
-#
-# This mod adds a small "quest" containing "an encounter of serpentine nature"
-# on the pocket plane dimension, as well as a brand new (and stylish!) item.
-# ============================================================================================ #
-# Latest version:   v4.0.0.0   # The latest official version.
-# Latest update:    25.04.2026 # 
-# ============================================================================================ #
-# mkdir 023_The_slithering_menace_v4.0.0.0-released-on-15.12.2024; cd 38_The_slithering_menace_v4.0.0.0-released-on-28.02.2025
-# wget https://github.com/Spellhold-Studios/Slithering-Menace/releases/download/v4.0.0/the-slithering-menace-v4.0.0.zip; tarb *zip
-# ============================================================================================ #
-# https://github.com/Spellhold-Studios/Slithering-Menace/
-# https://github.com/Spellhold-Studios/Slithering-Menace/releases/
-# ============================================================================================ #
-!ruby/symbol The_slithering_menace_mod:
- name_to_use:       The_slithering_menace_mod
- real_name:         Slithering-Menace
- github:            https://github.com/Spellhold-Studios/Slithering-Menace/
- latest_release_at: https://github.com/Spellhold-Studios/Slithering-Menace//releases/download/v.1.4.1/detective-guild-of-athkatla-1.4.1.zip; tarb *zip
- last_checked:      25.04.2026
- latest_version:    v4.0.0.0
  use_git_checkout:  true
 
 # ============================================================================================ #
@@ -1274,29 +1307,6 @@
  use_git_checkout:  true
 
 # ============================================================================================ #
-# === 076) Shadows over Soubar
-#
-# Last update:             15.12.2024
-# Last version:            2.1.3
-#
-# ============================================================================================ #
-# mkdir 076_Shadows_over_Soubar_v2.1.3-released-on-15.01.2025; cd 60_Shadows*; wget https://github.com/SpellholdStudios/Shadows_over_Soubar/releases/download/v2.1.3/shadows-over-soubar-2.1.3.zip
-# tarb *zip
-# ============================================================================================ #
-# https://github.com/Spellhold-Studios/Shadows-over-Soubar
-# https://github.com/Spellhold-Studios/Shadows-over-Soubar/releases/tag/v2.1.3
-# ============================================================================================ #
-!ruby/symbol Shadows_over_Soubar:
- name_to_use:       Shadows_over_Soubar
- real_name:         Shadows-over-Soubar
- github:            https://github.com/Spellhold-Studios/Shadows-over-Soubar
- latest_release_at: https://github.com/Spellhold-Studios/Shadows-over-Soubar
- last_updated:      15.12.2024
- last_checked:      30.04.2026
- latest_version:    2.1.3
- use_git_checkout:  true
-
-# ============================================================================================ #
 # === 073) Dreadful tales the bloodied stings of barovia
 #
 # Last update:             04.02.2026
@@ -1317,38 +1327,9 @@
  use_git_checkout:  false
 
 # ============================================================================================ #
-# === 047) Gone Nuts
-#
-# Last update:             21.02.2025
-# Last version:            v1.1
-#
-# ============================================================================================ #
-# mkdir 26_GoneNuts_v1.1-released-on-21.02.2025/
-# ============================================================================================ #
-# https://github.com/Glittergear/GoneNuts
-# https://github.com/Glittergear/GoneNuts/releases/tag/v1.1
-# ============================================================================================ #
-!ruby/symbol GoneNuts_mod:
- name_to_use:       GoneNuts
- real_name:         GoneNuts
- github:            https://github.com/Glittergear/GoneNuts
- latest_release_at: https://github.com/Glittergear/GoneNuts
- last_updated:      15.12.2024
- last_checked:      30.04.2026
- latest_version:    2.1.3
- use_git_checkout:  true
-
-# ============================================================================================ #
-# === 048) All Things Mazzy
-#
-# Last update:             08.05.2025
-# Last version:            3.16
-#
-# mkdir 048_All_Things_Mazzy_v3.16_released_on_02.05.2025; cd *048*All_Things_Mazzy_*; wget https://github.com/Ratatoskr589/All-Things-Mazzy/archive/refs/tags/v3.16.zip; tarb *zip 
-# tarb v3.14.zip
+# === All Things Mazzy
 # ============================================================================================ #
 # https://github.com/Ratatoskr589/All-Things-Mazzy/
-# https://github.com/Ratatoskr589/All-Things-Mazzy/releases
 # ============================================================================================ #
 !ruby/symbol All_Things_Mazzy_mod:
  name_to_use:       All_Things_Mazzy_mod
@@ -1703,7 +1684,7 @@
 # ============================================================================================ #
 # === Jarnips_Bonus_Merchant
 #
-# A bonus merchant.
+# A bonus merchant, created in 2026.
 # ============================================================================================ #
 # https://github.com/Carsomyr6/Jarnip
 # ============================================================================================ #
@@ -1980,7 +1961,6 @@
 #
 #   https://github.com/Gibberlings3/BG2-Fixpack
 #
-# mkdir 042_EE_Fixpack_mod_v100.0.1-released-on-the-03.01.2026; cd 045_EE_Fixpack*; gitclone https://github.com/Gibberlings3/EE_Fixpack
 # ============================================================================================ #
 # https://github.com/Gibberlings3/EE_Fixpack
 # ============================================================================================ #
