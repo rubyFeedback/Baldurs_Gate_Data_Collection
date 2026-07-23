@@ -29,6 +29,23 @@
 # ============================================================================================ #
 
 # ============================================================================================ #
+# === The_Item_Upgrade_Mod_v52_released_on_30.12.2023
+#
+# The Item Upgrade Mod Pack allows Cromwell and Cespenar to upgrade more items for you.
+# ============================================================================================ #
+# https://github.com/Pocket-Plane-Group/Item_Upgrade
+# ============================================================================================ #
+!ruby/symbol The_Item_Upgrade_Mod:
+ name_to_use:       The_Item_Upgrade_Mod
+ real_name:         Item_Upgrade
+ github:            https://github.com/Pocket-Plane-Group/Item_Upgrade
+ latest_release_at: https://github.com/Pocket-Plane-Group/Item_Upgrade
+ last_updated:      15.03.2026
+ last_checked:      30.04.2026
+ latest_version:    57
+ use_git_checkout:  true
+
+# ============================================================================================ #
 # === Gone Nuts
 #
 # Note that a druid is required for this quest to be solved.
@@ -160,11 +177,6 @@
 # Boo, among other quests.
 # ============================================================================================ #
 # https://github.com/LCA-EET/Lichdom/
-# mkdir 05_Lichdom_Mod-v1.4b-released-on-09.05.2025; cd *Lichdom*
-# wget https://github.com/LCA-EET/Lichdom/releases/download/v1.4b/Install_Lichdom.zip; tarb *zip
-# ============================================================================================ #
-# https://github.com/LCA-EET/Lichdom/releases/
-# https://github.com/LCA-EET/Lichdom/releases/tag/v1.4a
 # ============================================================================================ #
 !ruby/symbol lichdom:
  name_to_use:       Lichdom_mod
@@ -276,8 +288,6 @@
 # to travel to Lunia.
 # ============================================================================================ #
 # https://github.com/bucketfulofsunshine/Lunia-For-Good-Parties
-# mkdir 004_Lunia_for_Good_Parties-v1.3.2-published_on_22.03.2026
-# wget https://github.com/bucketfulofsunshine/Lunia-For-Good-Parties/releases/tag/V1.3.2
 # ============================================================================================ #
 !ruby/symbol Lunia_for_Good_Parties:
  name_to_use:       Lunia_for_Good_Parties_mod
@@ -316,8 +326,6 @@
 # Boo, among other quests.
 # ============================================================================================ #
 # https://github.com/Pocket-Plane-Group/UnfinishedBusiness
-# mkdir 04_Unfinished_Business-v29-05.06.2025; cd 04_Unfinish*
-# gitclone https://github.com/Pocket-Plane-Group/UnfinishedBusiness
 # ============================================================================================ #
 # https://github.com/Pocket-Plane-Group/UnfinishedBusiness
 # https://github.com/Pocket-Plane-Group/UnfinishedBusiness/releases/
@@ -339,8 +347,6 @@
 # Latest update:    25.04.2026 # We use the git clone sources.
 # ============================================================================================ #
 # https://github.com/bucketfulofsunshine/peacespeaker
-# mkdir 05_Lichdom_Mod-v1.4b-released-on-09.05.2025; cd *Lichdom*
-# wget https://github.com/LCA-EET/peacespeaker/releases/download/v1.4b/Install_Lichdom.zip; tarb *zip
 # ============================================================================================ #
 # https://github.com/bucketfulofsunshine/peacespeaker
 # https://github.com/bucketfulofsunshine/peacespeaker/releases/tag/v1.4a
@@ -353,14 +359,12 @@
  last_checked:      25.04.2026
  latest_version:    25.04.2026
  use_git_checkout:  true
- 
+
 
 # ============================================================================================ #
 # === peacespeaker mod
 # ============================================================================================ #
 # https://github.com/bucketfulofsunshine/peacespeaker
-# mkdir 05_Lichdom_Mod-v1.4b-released-on-09.05.2025; cd *Lichdom*
-# wget https://github.com/LCA-EET/peacespeaker/releases/download/v1.4b/Install_Lichdom.zip; tarb *zip
 # ============================================================================================ #
 # https://github.com/bucketfulofsunshine/peacespeaker
 # https://github.com/bucketfulofsunshine/peacespeaker/releases/tag/v1.4a
@@ -397,8 +401,6 @@
 # Latest update:    25.04.2026 # 
 # ============================================================================================ #
 # https://github.com/Deratiseur/Oops
-# mkdir 008_The_Oops_Mod_v4.4.1-published-on-03.12.2025; cd 008_The_Oops*
-# wget https://github.com/Deratiseur/Oops/releases/download/v4.4.1/win-Derats_Oops-v4.4.1.zip
 # ============================================================================================ #
 # https://github.com/Deratiseur/Oops
 # https://github.com/Deratiseur/Oops/releases
@@ -455,15 +457,8 @@
 # ============================================================================================ #
 # === The Dungeon Crawl Mod
 # ============================================================================================ #
-# Latest version:   v13.1      # The latest official version.
-# Latest update:    2021 # 
-# ============================================================================================ #
-# mkdir 12_DungeonCrawl_mod_v13.1_released_on_16.05.2021; cd 12_DungeonCrawl_mod*
-# wget https://github.com/Pocket-Plane-Group/Dungeon_Crawl/releases/download/v13.1/DungeonCrawl_v13-1.zip; tarb *zip
-# ============================================================================================ #
 # https://www.pocketplane.net/dungeon-crawl/
 # https://github.com/Pocket-Plane-Group/Dungeon_Crawl/
-# https://github.com/Pocket-Plane-Group/Dungeon_Crawl/releases
 # ============================================================================================ #
 !ruby/symbol The_Dungeon_Crawl_mod:
  name_to_use:       The_Dungeon_Crawl_mod
@@ -480,12 +475,6 @@
 # Tolgerias has the demon book. First one has to kill him though, in the planar sphere.
 #
 # His book can not be used by good aligned characters though.
-# ============================================================================================ #
-# Latest version:   v13.1      # The latest official version.
-# Latest update:    2021       # 
-# ============================================================================================ #
-# mkdir 012_Demon_summoning_ritual_v8.0.0-published-on-15.12.2024; cd 24_Demon_summ*
-# wget https://github.com/Spellhold-Studios/Demon-Summoning-Ritual/releases/download/v8.0.0/demon-summoning-ritual-v8.0.0.zip
 # ============================================================================================ #
 # https://github.com/Spellhold-Studios/Demon-Summoning-Ritual
 # https://github.com/Spellhold-Studios/Demon-Summoning-Ritual/releases/tag/v8.0.0
@@ -506,15 +495,7 @@
 # the Slums (try to go up the stairs to see an event), then travelling to
 # Waukeen's Promenade.
 # ============================================================================================ #
-# Latest version:   1.0.0      # The latest official version.
-# Latest update:    25.04.2026 # 
-# ============================================================================================ #
-# mkdir 013_Aura_the_artificer_v1.0.0-published-on-03.01.2026; cd 013_Aura*
-# wget https://github.com/Spellhold-Studios/Demon-Summoning-Ritual/releases/download/v8.0.0/demon-summoning-ritual-v8.0.0.zip
-# git_clone https://github.com/ArtemiusI/Aura_BG1_BG2_EET
-# ============================================================================================ #
 # https://github.com/ArtemiusI/Aura_BG1_BG2_EET
-# https://github.com/Spellhold-Studios/Demon-Summoning-Ritual/releases/tag/v8.0.0
 # ============================================================================================ #
 !ruby/symbol Aura_the_artificer_mod:
  name_to_use:       Aura_the_artificer_mod
@@ -528,12 +509,6 @@
 # ============================================================================================ #
 # === I shall never forget mod, by Lava, should come late as it adds new areas
 # ============================================================================================ #
-# Latest version:   6.5.4      # The latest official version.
-# Latest update:    23.03.2026 # 
-# ============================================================================================ #
-# https://downloads.weaselmods.net/download/i-shall-never-forget/
-# mkdir 014_I_shall_never_forget_mod_v6.4_published_on_28.12.2025; cd 014_I_shall_*
-# ============================================================================================ #
 !ruby/symbol I_shall_never_forget_mod:
  name_to_use:       I_shall_never_forget_mod
  real_name:         i-shall-never-forget
@@ -546,12 +521,6 @@
 # ============================================================================================ #
 # === Tales of the Deep Garden
 # ============================================================================================ #
-# Latest version:   12.96      # The latest official version.
-# Latest update:    10.01.2026 # 
-# ============================================================================================ #
-# https://downloads.weaselmods.net/download/tales-of-the-deep-gardens/
-# mkdir 015_Tales_of_the_Deep_Garden_v12.95-published-on-28.12.2025; cd 015_Tales_of_the_*
-# ============================================================================================ #
 !ruby/symbol Tales_of_the_Deep_Garden_mod:
  name_to_use:       Tales_of_the_Deep_Garden_mod
  real_name:         tales-of-the-deep-gardens
@@ -563,12 +532,6 @@
 
 # ============================================================================================ #
 # === Golden Horse mod
-# ============================================================================================ #
-# Latest version:   1.8f       # The latest official version.
-# Latest update:    10.01.2026 # 
-# ============================================================================================ #
-# mkdir 067_Golden_Horse_v1.8f_released_on_the_03.01.2026; cd 067_Golden*; wget https://github.com/Spellhold-Studios/Golden-Horse/releases/download/v1.8e/golden-horse-1.8e.zip
-# gitclone https://github.com/Spellhold-Studios/Golden-Horse
 # ============================================================================================ #
 !ruby/symbol Golden_Horse_mod:
  name_to_use:       Golden_Horse_mod
@@ -594,6 +557,8 @@
 
 # ============================================================================================ #
 # === SoD_Items_to_BG2EE_EET_mod
+#
+# This has items such as a Wizard Hat.
 # ============================================================================================ #
 !ruby/symbol SoD_Items_to_BG2EE_EET_mod:
  name_to_use:       SoD_Items_to_BG2EE_EET_mod
@@ -609,11 +574,7 @@
 #
 # Another NPC mod. Should probably come fairly late.
 # ============================================================================================ #
-# mkdir 020_Paina_NPC_mod_v1.9_released_on_26.04.2024; cd 020_Pain*
-# wget https://github.com/ArtemiusI/Pai-Na-NPC-mod-for-BG2-EE/archive/refs/tags/v1.9.zip; tarb *zip
-# ============================================================================================ #
 # https://github.com/ArtemiusI/Pai-Na-NPC-mod-for-BG2-EE
-# https://github.com/ArtemiusI/Pai-Na-NPC-mod-for-BG2-EE/releases
 # ============================================================================================ #
 !ruby/symbol Paina_the_NPC_mod:
  name_to_use:       Paina_the_NPC_mod
@@ -629,11 +590,6 @@
 #
 # To start the quest, you have to have Nalia in your party
 # in Chapter 9.
-# ============================================================================================ #
-# Latest version:   v7        # The latest official version.
-# Latest update:    30.01.2026 # 
-# ============================================================================================ #
-# mkdir 25_The_Reunion_mod_v7_released_on_15.05.2021; cd 32_The_Re*; wget https://github.com/Pocket-Plane-Group/Reunion/releases/download/v7/the-reunion-v7.zip
 # ============================================================================================ #
 # https://www.pocketplane.net/reunion/
 # https://github.com/Pocket-Plane-Group/Reunion
@@ -651,11 +607,7 @@
 # ============================================================================================ #
 # === The Wings mod
 # ============================================================================================ #
-# mkdir 024_Wings_mod_v1.0.8-released-on-08.10.2024; cd 024_Wings_mod_v1.0*;
-# wget https://github.com/Skitia/Wings/archive/refs/tags/v1.08.zip; tarb *zip
-# ============================================================================================ #
 # https://github.com/Skitia/Wings/releases
-# wget https://github.com/Skitia/Wings/archive/refs/tags/v1.08.zip
 # ============================================================================================ #
 !ruby/symbol The_Wings_mod:
  name_to_use:       The_Wings_mod
@@ -673,11 +625,6 @@
 # Latest update:    30.01.2026 # 
 # ============================================================================================ #
 # https://github.com/Deratiseur/Jazon/
-# mkdir 025_Jazon_the_revenant_v4.4_published-on-06.09.2025; cd 025_Jazon*
-# wget https://github.com/Deratiseur/Jazon/releases/download/v4.4.0/win-Derats_Jazon-v4.4.zip; tarb win*zip
-# ============================================================================================ #
-# https://github.com/Deratiseur/Jazon
-# https://github.com/Deratiseur/Jazon/releases
 # ============================================================================================ #
 !ruby/symbol Jazon_the_revenant_mod:
  name_to_use:       Jazon_the_revenant_mod
@@ -694,8 +641,6 @@
 # Check out the Eyes of Mask item.
 # ============================================================================================ #
 # https://github.com/Deratiseur/Jazon/
-# mkdir 034_A7-WaresOfThePlanes_published-on-the-22.02.2025; cd 034_A7-WaresOfThePlanes_published-on-the-22.02.2025; git_clone https://github.com/Argent77/A7-WaresOfThePlanes
-# wget https://github.com/Argent77/A7-WaresOfThePlanes/releases/download/v2.0/win-A7-WaresOfThePlanes-v2.0.zip
 # ============================================================================================ #
 # https://github.com/Argent77/A7-WaresOfThePlanes
 # https://github.com/Argent77/A7-WaresOfThePlanes/releases/
@@ -716,13 +661,8 @@
 # Latest version:   1.4        # The latest official version.
 # Latest update:    27.02.2024 # 
 # ============================================================================================ #
-# mkdir 043_FowlWish-v1.3-released-on-27.02.2024; cd 043_Fowl**
-# wget https://github.com/Glittergear/A-Fowl-Wish/releases/download/v1.3/FowlWish.v1.3.zip
-# ============================================================================================ #
 # https://www.gibberlings3.net/forums/topic/37911-quest-mod-a-fowl-wish/
 # https://github.com/Glittergear/A-Fowl-Wish/
-# https://github.com/Glittergear/A-Fowl-Wish/releases/
-# https://github.com/Glittergear/A-Fowl-Wish/releases/tag/v1.3
 # ============================================================================================ #
 !ruby/symbol The_FowlWish_mod:
  name_to_use:       The_FowlWish_mod
@@ -736,14 +676,7 @@
 # ============================================================================================ #
 # === Skitia NPCs mod
 # ============================================================================================ #
-# Latest version:   1.15       # The latest official version.
-# Latest update:    27.02.2024 # 
-# ============================================================================================ #
-# mkdir 051_Skitia_NPCs_v1.15_released_on_the_03.01.2026; 051_Skitia*; wget https://github.com/Skitia/SkitiaNPCs/archive/refs/tags/v1.14.zip; tarb *zip
-# wget https://github.com/Glittergear/A-Fowl-Wish/releases/download/v1.3/FowlWish.v1.3.zip
-# ============================================================================================ #
 # https://github.com/Skitia/SkitiaNPCs/
-# https://github.com/Skitia/SkitiaNPCs/releases/tag/v1.15
 # ============================================================================================ #
 !ruby/symbol Skitia_NPCs_mod:
  name_to_use:       Skitia_NPCs_mod
@@ -759,11 +692,6 @@
 #
 # Alternatives offers two new possibilities to consider when making the decision about
 # whether to side with the Shadow Thieves or with Valen's Mistress.
-# ============================================================================================ #
-# Latest version:   15         # The latest official version.
-# Latest update:    27.02.2024 # 
-# ============================================================================================ #
-# mkdir 022_Alternatives_mod_v15_released_on_22.02.2025; cd 022_Alternat*; git_clone https://github.com/Gibberlings3/Alternatives
 # ============================================================================================ #
 # https://www.gibberlings3.net/mods/quests/alternatives/
 # https://github.com/Gibberlings3/Alternatives
@@ -782,12 +710,6 @@
 # === The Golem construction mod
 #
 # This mod changes a few areas and item mods.
-# ============================================================================================ #
-# Latest version:   6.5.1.1    # The latest official version.
-# Latest update:    25.04.2026 # 
-# ============================================================================================ #
-# mkdir 036_A7_The_Golem_Construction_mod_v6.5.1.1_released_on_03.01.2026; cd *036_A7_The_Golem*
-# gitclone https://github.com/Argent77/A7-GolemConstruction
 # ============================================================================================ #
 # https://github.com/Argent77/A7-GolemConstruction
 # https://raw.githubusercontent.com/Argent77/A7-GolemConstruction/refs/heads/devel/A7-GolemConstruction/readme/golem_information.txt
@@ -820,11 +742,6 @@
 #
 # A NPC, with a great, unique item.
 # ============================================================================================ #
-# Latest version:   6.5.1.1    # The latest official version.
-# Latest update:    27.12.2025 # 
-# ============================================================================================ #
-# mkdir 039_VerrBG2-v2.3.1-released-on-the-27.12.2025; cd 039_Verr*
-# ============================================================================================ #
 # https://downloads.weaselmods.net/download/verrsza-bg2ee/
 # ============================================================================================ #
 !ruby/symbol The_VerrBG2_mod:
@@ -842,14 +759,7 @@
 # Unravel the mysteries of the Twisted Rune and investigate the Cowled Wizards in this
 # Enhanced Edition Trilogy mod.
 # ============================================================================================ #
-# Latest version:   1.0.4      # The latest official version.
-# Latest update:    12.09.2024 # 
-# ============================================================================================ #
-# mkdir 026_CowledMenace_v1.0.3_published-on-12.09.2024; cd 026_Cowled*
-# wget https://github.com/Gibberlings3/CowledMenace/releases/download/1.0.3/cowledmenace-v1.0.3.exe
-# ============================================================================================ #
 # https://github.com/Gibberlings3/CowledMenace/
-# https://github.com/Gibberlings3/CowledMenace/releases
 # ============================================================================================ #
 !ruby/symbol The_CowledMenace_mod:
  name_to_use:       The_CowledMenace_mod
@@ -893,14 +803,7 @@
 #
 # Find Baeloth in the Copper Cornet.
 # ============================================================================================ #
-# Latest version:   0.2.0      # The latest official version.
-# Latest update:    27.04.2026 # 
-# ============================================================================================ #
-# mkdir 066_BaeBG2_NPC_Mod_v0.2.0-released-on-the-12.09.2025
-# wget https://github.com/dark0dave/BaeBG2/releases/download/v0.2.0/win-zdbae-v0.2.0.zip
-# ============================================================================================ #
 # https://github.com/dark0dave/BaeBG2
-# https://github.com/dark0dave/BaeBG2/releases/tag/v0.1.3
 # ============================================================================================ #
 !ruby/symbol The_BaeBG2_mod:
  name_to_use:       The_BaeBG2_mod
@@ -969,15 +872,7 @@
 #   https://github.com/Spellhold-Studios/BG1-NPCs-for-SoA-ToB/blob/main/BG1NPCSoA/readme/BG1ReadMe.pdf
 #
 # ============================================================================================ #
-# Latest version:   15.5       # The latest official version.
-# Latest update:    10.02.2026 # 
-# ============================================================================================ #
-# mkdir 068_Bg1-npc-in-soatob-15.4.3_released_on_03.01.2026; cd 068_bg1*
-# gitclone https://github.com/Spellhold-Studios/BG1-NPCs-for-SoA-ToB/
-# wget https://github.com/Spellhold-Studios/BG1-NPCs-for-SoA-ToB/releases/download/v.15.4.2/bg1-npc-in-soatob-15.4.2.zip
-# ============================================================================================ #
 # https://github.com/Spellhold-Studios/BG1-NPCs-for-SoA-ToB/
-# https://github.com/Spellhold-Studios/BG1-NPCs-for-SoA-ToB/releases/tag/v.15.4
 # ============================================================================================ #
 !ruby/symbol The_BG1_NPCs_for_SoA_ToB_mod:
  name_to_use:       The_BG1_NPCs_for_SoA_ToB_mod
@@ -992,13 +887,7 @@
 # ============================================================================================ #
 # === Eilistraees Song mod
 # ============================================================================================ #
-# Latest version:   7.5.1      # The latest official version.
-# Latest update:    11.12.2024 # 
-# ============================================================================================ #
-# mkdir 063_Eilistraees_Song_v7.5.1-released-on-11.12.2024; cd 063_Eilis*
-# ============================================================================================ #
 # https://github.com/Spellhold-Studios/BG1-NPCs-for-SoA-ToB/
-# https://github.com/Spellhold-Studios/BG1-NPCs-for-SoA-ToB/releases/tag/v.15.4
 # ============================================================================================ #
 !ruby/symbol Eilistraees_Song_mod:
  name_to_use:       Eilistraees_Song_mod
@@ -1013,13 +902,7 @@
 # ============================================================================================ #
 # === The Sellswords mod
 # ============================================================================================ #
-# Latest version:   9.1      # The latest official version.
-# Latest update:    15.05.2021 # 
-# ============================================================================================ #
-# mkdir 062_The_Sellswords_mod_v9.1_15.05.2021; cd 062_The_Sell*; wget https://github.com/Pocket-Plane-Group/Sellswords/releases/download/v9.1/the-sellswords-mod-for-baldurs-gate-ii-v9.1.zip; tarb *zip
-# ============================================================================================ #
 # https://github.com/Pocket-Plane-Group/Sellswords/
-# https://github.com/Pocket-Plane-Group/Sellswords/releases
 # ============================================================================================ #
 !ruby/symbol The_Sellswords_mod:
  name_to_use:       The_Sellswords_mod
@@ -1036,14 +919,6 @@
 #
 # This should come after Tales of the Deep Garden.
 # ============================================================================================ #
-# Latest version:   7.4.2      # The latest official version.
-# Latest update:    11.12.2024 # 
-# ============================================================================================ #
-# mkdir 059_The_White_Queen_mod_version_7.4.1-published-on-the-29.12.2025; cd 059_The_White*
-# ============================================================================================ #
-# https://github.com/Spellhold-Studios/BG1-NPCs-for-SoA-ToB/
-# https://github.com/Spellhold-Studios/BG1-NPCs-for-SoA-ToB/releases/tag/v.15.4
-# ============================================================================================ #
 !ruby/symbol The_White_Queen_mod:
  name_to_use:       The_White_Queen_mod
  real_name:         the-white-queen
@@ -1057,14 +932,7 @@
 # ============================================================================================ #
 # === Throne of the Mad God, a mod created by Acifer
 # ============================================================================================ #
-# Latest version:   2.0        # The latest official version.
-# Latest update:    12.04.2026 # 
-# ============================================================================================ #
-# mkdir 028_Throne_of_the_Mad_God-v1.7-released-on-the-14.12.2025; cd 028_Throne
-# wget https://github.com/AciferBG/Throne-of-the-Mad-God/releases/download/v1.7/Throne_of_the_Mad_God_v1.7.zip
-# ============================================================================================ #
 # https://github.com/AciferBG/Throne-of-the-Mad-God
-# https://github.com/AciferBG/Throne-of-the-Mad-God/releases/tag/v1.5
 # ============================================================================================ #
 !ruby/symbol Throne_of_the_Mad_God_mod:
  name_to_use:       Throne_of_the_Mad_God_mod
@@ -1079,15 +947,7 @@
 # ============================================================================================ #
 # === BloodAndFaith mod
 # ============================================================================================ #
-# Latest version:   1.4        # The latest official version.
-# Latest update:    12.04.2026 # 
-# ============================================================================================ #
-# mkdir 029_BloodAndFaith_v1.2_published-on-27.08.2025; cd 029_BloodAndFaith*
-# wget https://github.com/Glittergear/BloodAndFaith/releases/download/v1.2/Blood.and.Faith.v1.2.zip; tarb win*zip
-# ============================================================================================ #
 # https://github.com/Glittergear/BloodAndFaith/
-# https://github.com/Glittergear/BloodAndFaith/releases/tag/v1.2
-# https://github.com/Glittergear/BloodAndFaith/releases/download/v1.1/BloodAndFaith.v1.1.zip
 # ============================================================================================ #
 !ruby/symbol Blood_and_Faith_mod:
  name_to_use:       Blood_and_Faith_mod
@@ -1105,15 +965,7 @@
 # This mod makes Solaufein, the Ust Natha Drow from BGII a joinable NPC and
 # adds a quest in the Underdark.
 # ============================================================================================ #
-# Latest version:   5.1        # The latest official version.
-# Latest update:    12.04.2026 # 
-# ============================================================================================ #
-# mkdir 029_BloodAndFaith_v1.2_published-on-27.08.2025; cd 029_BloodAndFaith*
-# wget https://github.com/Glittergear/BloodAndFaith/releases/download/v1.2/Blood.and.Faith.v1.2.zip; tarb win*zip
-# ============================================================================================ #
 # https://github.com/Gitjas/Solaufeins_Rescue_NPC
-# https://github.com/Gitjas/Solaufeins_Rescue_NPC/releases/tag/v5
-# https://github.com/Gitjas/Solaufeins_Rescue_NPC/releases/download/v5/solaufeins-rescue-jasteys-solaufein-npc-mod-for-bgii-5.0.zip
 # ============================================================================================ #
 !ruby/symbol Solaufeins_rescue_mod:
  name_to_use:       Solaufeins_rescue_mod
@@ -1128,14 +980,7 @@
 # ============================================================================================ #
 # === Ninde NPC, a necromancer
 # ============================================================================================ #
-# Latest version:   3.0        # The latest official version.
-# Latest update:    05.01.2025 # 
-# ============================================================================================ #
-# mkdir  031_Ninde_NPC_v3.0-released-on-05.01.2025; cd 13_Ninde_*
-# wget https://github.com/Spellhold-Studios/Ninde-NPC/releases/download/v3.0/ninde-npc-for-bgii-v3.0.zip
-# ============================================================================================ #
 # https://github.com/Spellhold-Studios/Ninde-NPC
-# https://github.com/Spellhold-Studios/Ninde-NPC/releases/tag/v3.0
 # ============================================================================================ #
 !ruby/symbol Ninde_NPC_the_necromancer:
  name_to_use:       Ninde_NPC_the_necromancer
@@ -1148,15 +993,9 @@
  use_git_checkout:  true
  
 # ============================================================================================ #
-# === 032) Romantic Encounters
-#
-# Last update:             05.01.2025
-# Last version:            15
-#
-# mkdir 032_BG2_EE_Romantic_Encounters_16.08.2023; cd 032_BG2_EE*; wget https://github.com/Gibberlings3/Romantic_Encounters_BG2/releases/download/v15/RE_v15.zip; tarb *zip
+# === Romantic Encounters
 # ============================================================================================ #
 # https://github.com/Gibberlings3/Romantic_Encounters_BG2
-# https://github.com/Gibberlings3/Romantic_Encounters_BG2/releases/tag/v15
 # ============================================================================================ #
 !ruby/symbol BG2_EE_Romantic_Encounters:
  name_to_use:       BG2_EE_Romantic_Encounters
@@ -1170,11 +1009,6 @@
 
 # ============================================================================================ #
 # === 035) The Journey to the Whin Hill
-#
-# Last version:            1.3.6
-# Last update:             25.04.2026
-#
-# mkdir 035_The_Journey_to_the_Whin_Hill_v1.3.3-released-on-28.12.2025; cd 035_The_Journey_to_the_Whin_*
 # ============================================================================================ #
 # https://downloads.weaselmods.net/download/the-journey-to-the-whin-hill/
 # ============================================================================================ #
@@ -1190,11 +1024,6 @@
 
 # ============================================================================================ #
 # === 037) The mystigan NPC mod
-#
-# Last update:             07.07.2022
-# Last version:            1.62
-#
-# mkdir 037_Mystigan_v1.62_released_on_07.07.2022; cd 037_Mystigan_v1.62_*; wget https://akadis.baldursgateworld.fr/Mystigan/zip/Mystigan1.62.zip
 # ============================================================================================ #
 # https://akadis.baldursgateworld.fr/Mystigan/MystiganEn.html
 # ============================================================================================ #
@@ -1210,11 +1039,6 @@
 
 # ============================================================================================ #
 # === 049) Back to Brynnlaw
-#
-# Last update:             15.05.2021
-# Last version:            9
-#
-# mkdir 049_Back_to_Brynnlaw_v9_released_on_15.05.2021; cd 049_Back_to*; wget https://github.com/Pocket-Plane-Group/Back_to_Brynnlaw/releases/download/v9/back-to-brynnlaw-mod-for-baldurs-gate-ii-bgii-bgt-bgiiee-and-eet-v9.zip
 # ============================================================================================ #
 # https://github.com/Pocket-Plane-Group/Back_to_Brynnlaw
 # ============================================================================================ #
@@ -1243,9 +1067,6 @@
 # Faldorn. Expect maybe an hour of gameplay. Cernd, Jaheira, and high charisma will be
 # helpful here, though you can complete the quest without any of those three. As always,
 # the walkthrough is in the readme.
-#
-# mkdir 046_Dead_Gardens-v1.1_released_on_10.01.2025; cd 08_Dead*
-# wget https://github.com/Glittergear/DeadGardens/releases/download/v1.1/DeadGardens.v1.1.zip; tarb *zip
 # ============================================================================================ #
 # wget https://github.com/Glittergear/DeadGardens/releases/download/v1.1/DeadGardens.v1.1.zip
 # ============================================================================================ #
@@ -1265,14 +1086,8 @@
 
 # ============================================================================================ #
 # === 074) Saradas Magic
-#
-# Last update:             25.01.2025
-# Last version:            2.0.0
-#
-# mkdir 65_Saradas_Magic_for_BG2_v2.0.0_released_on_25.01.2025; cd 39_Sarad*; wget https://github.com/Spellhold-Studios/Saradas-Magic-BG2/releases/download/v2.0.0/saradas-magic-for-bg2-v2.0.0.zip 
 # ============================================================================================ #
 # https://github.com/Spellhold-Studios/Saradas-Magic-BG2
-# https://github.com/Spellhold-Studios/Saradas-Magic-BG2/releases/tag/v2.0.0
 # ============================================================================================ #
 !ruby/symbol Saradas_Magic_NPC_mod:
  name_to_use:       Saradas_Magic_NPC_mod
@@ -1285,14 +1100,7 @@
  use_git_checkout:  true
 
 # ============================================================================================ #
-# === 075) Bolsa the merchant
-#
-# Last update:             06.01.2025
-# Last version:            6.0.0
-#
-# https://github.com/Spellhold-Studios/Bolsa/releases/tag/v6.0.0
-#
-# mkdir 075_Bolsa_the_merchant_v6.0.0-released-on-06.01.2025; cd 075_Bolsa*; wget https://github.com/Spellhold-Studios/Bolsa/releases/download/v6.0.0/bolsa-v6.0.0.zip
+# === Bolsa the merchant
 # ============================================================================================ #
 # https://github.com/Spellhold-Studios/Bolsa/releases/
 # ============================================================================================ #
@@ -1311,8 +1119,6 @@
 #
 # Last update:             04.02.2026
 # Last version:            2.6.2
-#
-# mkdir 073_The_Dreadful_Tales_The_Bloodied_Stings_of_Barovia_v2.6.1_released_on_03.01.2026; cd 073_The_D*;
 # ============================================================================================ #
 # https://downloads.weaselmods.net/download/the-bloodied-stings-of-barovia/
 # ============================================================================================ #
@@ -1346,9 +1152,7 @@
 #
 # Last update:             22.02.2025
 # Last version:            v19
-#
 # ============================================================================================ #
-# mkdir 071_Assassinations-v19-released-on-22.02.2025; cd 071_Assass*
 # gitclone https://github.com/Pocket-Plane-Group/Assassinations
 # ============================================================================================ #
 # https://github.com/Pocket-Plane-Group/Assassinations
@@ -1387,8 +1191,6 @@
 # Last version:            5.0
 #
 # The drizzt mod. It should come fairly late, as it changes many things.
-#
-# mkdir 040_Region_of_Terror_mod_v5.0_released_on_the_27.12.2025; cd 040_Region*; wget https://github.com/Spellhold-Studios/Region-of-Terror/releases/download/v5.0/region-of-terror-v5.0.zip
 # ============================================================================================ #
 # https://github.com/Spellhold-Studios/Region-of-Terror
 # https://github.com/Spellhold-Studios/Region-of-Terror/releases/tag/v5.0
@@ -1410,8 +1212,6 @@
 #
 # Last update:             02.01.2026
 # Last version:            1.9.2
-#
-# mkdir 060_Alabaster_Sands_v1.9.1-released-on-the-03.01.2026; cd 060_Alabaster*
 # ============================================================================================ #
 # https://downloads.weaselmods.net/download/alabaster-sands/
 # ============================================================================================ #
@@ -1433,7 +1233,6 @@
 #
 # A Halfling among the Eyeless.
 #
-# mkdir 045_Ascalons_questpack_v6.1_last_published_on_20.02.2025; cd 22_Ascalon*
 # wget https://github.com/Gitjas/Ascalons_Questpack/releases/download/v6.1/ascalons-questpack-6.1.zip
 # ============================================================================================ #
 # https://github.com/Gitjas/Ascalons_Questpack
@@ -1457,7 +1256,6 @@
 # Last update:             03.01.2026
 # Last version:            1.00
 #
-# mkdir 050_NeverwinterNights-v1.00-released-on-the-03.01.2026
 # gitclone https://github.com/abalabokhin/NWNForBG
 # ============================================================================================ #
 # https://github.com/abalabokhin/NWNForBG
@@ -1478,7 +1276,6 @@
 # Last version:            2.7
 #
 # ============================================================================================ #
-# mkdir 052_Call_of_the_Lost_Goddess_2.6.1-released-on-the-03.01.2026; cd *052_Call*of*
 # wget https://github.com/AciferBG/Call-of-the-Lost-Goddess/releases/download/v2.4/Call_of_the_lost_goddess_V_2.4.zip; tarb *zip
 # gitclone https://github.com/AciferBG/Call-of-the-Lost-Goddess
 # ============================================================================================ #
@@ -1518,7 +1315,6 @@
 # Last version:            4.6.4
 #
 # ============================================================================================ #
-# mkdir 054_Heroes_Thieves_and_Moneylenders-4.6.3-released-on-25.12.2025; cd 48_Hero*
 # wget https://github.com/Austin-BG/HTaM/releases/download/v.4.6.3/heroes-thieves-and-moneylenders-4.6.3.zip
 # tarb heroes-thieves-and-moneylenders-4.6.2.zip
 # ============================================================================================ #
@@ -1543,7 +1339,6 @@
 #
 # Last version:            11.16
 #
-# mkdir 055_The_Innershade_mod_v11.14_released_on_the_28.12.2025; cd 055_The_Inn*;
 # ============================================================================================ #
 # https://downloads.weaselmods.net/download/innershade/
 # ============================================================================================ #
@@ -1559,12 +1354,7 @@
 
 # ============================================================================================ #
 # === 056) Almaterias-Restoration-Project
-#
-# Last update:             03.01.2026
-# Last version:            v10.2
-#
 # ============================================================================================ #
-# mkdir 056_Almaterias-Restoration-Project_v10.2-released-on-the-03.01.2026; cd 056_Almaterias-Restoration*
 # wget https://github.com/Spellhold-Studios/Almaterias-Restoration-Project/releases/download/v10.1/arestorationp-v10.1.zip
 # gitclone https://github.com/Spellhold-Studios/Almateria-Restoration-Project
 # ============================================================================================ #
@@ -1602,9 +1392,6 @@
  
 # ============================================================================================ #
 # === 058) D2-weapon-mod
-#
-# mkdir 058_D2-weapon-mod_v3.2-released-on-the-17.08.2025; cd 058_D2-weapon-mod*
-# wget https://github.com/D2-mods/D2-Weapon/releases/download/v3.2/d2-weapon-v3.2-windows-x64.zip
 # ============================================================================================ #
 # https://github.com/D2-mods/D2-Weapon
 # https://github.com/D2-mods/D2-Weapon/releases/tag/v3.1
@@ -1625,11 +1412,6 @@
 # === 063) Trials of the Luremaster mod
 #
 # Should probably come before Shadows over Soubar.
-#
-# Last update:             26.01.2025
-# Last version:            4.3
-#
-# mkdir 45_Trials_of_the_Luremaster_v4.3_released_on_26.01.2025; cd 27_Trials_of_the_Luremaster_v4.3_released_on_26.01.2025; git_clone https://github.com/Argent77/A7-TotLM-BG2EE
 # ============================================================================================ #
 # https://github.com/Argent77/A7-TotLM-BG2EE/
 # https://github.com/Argent77/A7-TotLM-BG2EE/releases/
@@ -1651,7 +1433,6 @@
 #
 # Last update:             03.01.2026
 # ============================================================================================ #
-# mkdir 069_Autumns_Twilight_mod_v1.3.1_published_on_the_03.01.2026; cd 60_Aut*; wget https://github.com/evancauteren/bg2-autumns-twilight-mod/releases/download/v1.3.0/bg2-autumns-twilight-mod-1_3_0.zip; tarb *zip
 # git clone https://github.com/evancauteren/bg2-autumns-twilight-mod/
 # ============================================================================================ #
 # https://github.com/evancauteren/bg2-autumns-twilight-mod/
@@ -1755,7 +1536,6 @@
 #
 # This adds the Temple of Mask. This should be installed BEFORE the Dusk-NPC mod.
 #
-# mkdir 21_Hidden_Adventures_Beta_v8-released-on-20.01.2025
 # wget https://github.com/Gitjas/hiddenadventure/releases/download/vBeta_8/hidden-adventures-beta_8.zip
 # ============================================================================================ #
 # https://github.com/Gitjas/hiddenadventure
@@ -1791,7 +1571,6 @@
 # Latest version:   3.5a       # The latest official version.
 # Latest update:    25.04.2026 # We use the git clone sources.
 # ============================================================================================ #
-# mkdir 002_Baldurs_Gate_Graphical_Overhaul-v3.5a.published_on_21.03.2026; cd *Baldurs_Gate_Graphical_*
 # gitclone https://github.com/Spellhold-Studios/Baldurs-Gate-Graphical-Overhaul
 # wget https://github.com/Spellhold-Studios/Baldurs-Gate-Graphical-Overhaul/releases/download/v3.5/baldurs-gate-graphical-overhaul-v3.5.zip
 # ============================================================================================ #
@@ -1821,33 +1600,11 @@
  use_git_checkout:  true
 
 # ============================================================================================ #
-# === 66, The_Item_Upgrade_Mod_v52_released_on_30.12.2023
-#
-# The Item Upgrade Mod Pack allows Cromwell and Cespenar to upgrade more items for you.
-#
-# mkdir 66_The_Item_Upgrade_Mod_v53.0.1_released_on_30.01.2025
-# git clone https://github.com/Pocket-Plane-Group/Item_Upgrade
-# ============================================================================================ #
-# https://github.com/Pocket-Plane-Group/Item_Upgrade
-# ============================================================================================ #
-!ruby/symbol The_Item_Upgrade_Mod:
- name_to_use:       The_Item_Upgrade_Mod
- real_name:         Item_Upgrade
- github:            https://github.com/Pocket-Plane-Group/Item_Upgrade
- latest_release_at: https://github.com/Pocket-Plane-Group/Item_Upgrade
- last_updated:      15.03.2026
- last_checked:      30.04.2026
- latest_version:    57
- use_git_checkout:  true
-
-# ============================================================================================ #
 # === 078) Tactics Remix
 #
 # Some options can make the game very hard. Be especially cautious about improved mages
 # AI and stronger undead and smarter liches. The combination can really make games 
 # very hard.
-# ============================================================================================ #
-# mkdir 078_Tactics_Remix_5.0_released_on_03.01.2026; cd *Tactics_Remix*
 # ============================================================================================ #
 # https://www.morpheus-mart.com/tactics-remix
 # https://www.dropbox.com/scl/fi/6mb81zgx6iry3asd65vpr/Tactics-Remix-0.9.9-beta.zip?rlkey=lwt5owkoyuuf874pwxbxv90lo&e=1&st=phfy5bhw&dl=0
@@ -1866,8 +1623,6 @@
 # === 079) Bridge's Block
 #
 # Should come after tactics remix.
-# ============================================================================================ #
-# mkdir 079_Bridges_Block_2.02_released_on_the_03.01.2026; cd 079_Bridges_Block_2.01_*
 # ============================================================================================ #
 # https://downloads.weaselmods.net/download/bridges-block/
 # ============================================================================================ #
@@ -1906,7 +1661,6 @@
 # This mod should come last, e. g. the last to be installed - at the least I found it is
 # best if it comes last.
 # ============================================================================================ #
-# mkdir 081_Tweaks_Anthology_Mod_v18.0.2-released-on-the-03.01.2026; cd 081_Tweaks*
 # gitclone https://github.com/Gibberlings3/Tweaks-Anthology
 # ============================================================================================ #
 # https://github.com/Gibberlings3/Tweaks-Anthology
@@ -1924,7 +1678,6 @@
 # ============================================================================================ #
 # === 041) Dark Tidings
 # ============================================================================================ #
-# mkdir 041_Dark_Tidings_v2.8.1_released-on-the-03.01.2026
 # gitclone https://github.com/AciferBG/Dark-Tidings/
 # ============================================================================================ #
 # https://github.com/AciferBG/Dark-Tidings/
@@ -2112,7 +1865,6 @@
 # quite a while. May reconsider if it is actively maintaind again.
 #
 # Unusual-Oddities-Shop-5.0/
-# mkdir 37_Unusual-Oddities-Shop-v5.0_released_on_15.12.2024
 # wget https://github.com/Spellhold-Studios/Unusual-Oddities-Shop/releases/download/v5.0/the-unusual-oddities-shop-5.0.zip
 # ============================================================================================ #
 # https://github.com/Spellhold-Studios/Unusual-Oddities-Shop
@@ -2162,7 +1914,6 @@
 #
 # Version: V3.5
 #
-# mkdir 54_The_Quest_pack_mod_v3.5_released_on_20.07.2022
 # wget https://pocketplane.net/mods/questpack-v35-win.zip
 #
 # Should be installed after "Unfinished Business".
@@ -2192,7 +1943,6 @@
 # Latest update:  15.12.2024
 # Latest version: 3.0
 #
-# mkdir 55_Check_the_Bodies_v3.0-released-on-22.02.2025; cd 55_Check_the*
 # git_clone https://github.com/Spellhold-Studios/Check-the-Bodies
 #
 # This one also installs the Saerk Farrahd's banquet invitation. This one crashed the game
@@ -2212,7 +1962,6 @@
 #
 # Interesting idea, but for now I skipped this mod.
 # ============================================================================================ # 
-# mkdir 60_The_Workshop_Kitpack_v5.9_released_on_10.01.2025
 # cd 60_The_Workshop_Kitpack_v5.9_released_on_10.01.2025/
 # wget https://github.com/D2-mods/The-Workshop-Kitpack/releases/download/v5.9/the-workshop-kitpack-v5.9-windows-x64.zip
 # ============================================================================================ #
