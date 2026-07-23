@@ -6,10 +6,6 @@
 # another .yml file.
 #
 # Note that each entry here must be a Symbol.
-#
-# There are currently two listings: the first one is the current numbering,
-# the second one the old, final listing. In the long run I may return to
-# the second listing, but for now the first listing applies.
 # ============================================================================ #
 # Games.file_array_mod_installation_order
 # ============================================================================ #
@@ -27,11 +23,15 @@
 #   - Powergaming scripts should go last.
 #
 # ============================================================================ #
-# For the next run try the ajoc mod; also test the Ink Gallery, and
-# the Duality_Odd_Quest_Mod and the psionics mod.
+
+# ============================================================================ #
+# Next party should be:
 #
-# Party should be: zerker-katana-mage as main, Korgan, Dusk, Drizzt,
-#                  Aura and Viconia. Korgan with hammer+axe or so.
+#   psionic, Korgan, Dusk, Drizzt, Aura and Edwin.
+#   tripler, Korgan, Dusk, Drizzt, Aura and Aerie.
+#
+# Also test https://github.com/bucketfulofsunshine/baldurian-bar-hop once
+# it is ready.
 # ============================================================================ #
 
 - !ruby/symbol EET_from_Gibberlings3                             #  (1) EET Mod.
@@ -39,17 +39,17 @@
 - !ruby/symbol Unfinished_Business_mod                           #  (3) Unfinished Business Mod. Should be installed early on.
 
 # ============================================================================ #
-# === Custom mods, early
+# === Custom mods, early on
 # ============================================================================ #
 - !ruby/symbol Almaterias_Restoration_Project_mod                #  (4) Almaterias Restoration Project mod.
 - !ruby/symbol Alternatives_mod                                  #  (5) Alternatives mod.
 
 # ============================================================================ #
-# === NPC modifications that are important
+# === NPC modifications that are useful
 # ============================================================================ #
 - !ruby/symbol Aura_the_artificer_mod                            #  (6) Aura the artificer Mod.
-- !ruby/symbol Viconia_Revamped_mod                              #  (7) Viconia Revamped mod.
-- !ruby/symbol The_VerrBG2_mod                                   #  (8) The VerrBG2 mod.
+- !ruby/symbol The_VerrBG2_mod                                   #  (7) The VerrBG2 mod.
+- !ruby/symbol Viconia_Revamped_mod                              #  (8) Viconia Revamped mod.
 
 # ============================================================================ #
 # === Lava's mods
@@ -70,109 +70,111 @@
 - !ruby/symbol The_Ink_gallery_mod                               # (22) The Ink gallery Mod.
 - !ruby/symbol The_Ooze_Lounge_mod                               # (23) The Ooze Lounge Mod.
 - !ruby/symbol The_Innershade_mod                                # (24) The Innershade mod.
-- !ruby/symbol Solaufeins_rescue_mod                             # (25) Solaufeins rescue mod.
-- !ruby/symbol The_Dreadful_Tales_In_Love_Undeath_mod            # (26) The Dreadful Tales In Love Undeath mod.
-
-# ============================================================================ #
-# === Derasiteur mods
-# ============================================================================ #
-- !ruby/symbol Jazon_the_revenant_mod                            # (27) Jazon the revenant Mod.
-- !ruby/symbol the_oops_mod                                      # (28) The Oops Mod.
-- !ruby/symbol Gilbertus_mod                                     # (29) Gilbertus mod.
-- !ruby/symbol The_ogre_and_the_gnome_mod                        # (30) The ogre and the gnome mod.
-- !ruby/symbol Insurmountable_Challenges_mod                     # (31) Insurmountable Challenges mod.
+- !ruby/symbol The_Dreadful_Tales_In_Love_Undeath_mod            # (25) The Dreadful Tales In Love Undeath mod.
 
 # ============================================================================ #
 # === argent77's mods
 # ============================================================================ #
-- !ruby/symbol Trials_of_the_Luremaster_mod                      # (32) Trials of the Luremaster mod.
-- !ruby/symbol The_golem_construction_mod                        # (33) The golem construction mod.
-- !ruby/symbol Afaaq_the_Djinni_Companion                        # (34) Afaaq the Djinni companion
-- !ruby/symbol Wares_of_the_Planes_mod                           # (35) Wars of the Planes Mod.
+- !ruby/symbol Trials_of_the_Luremaster_mod                      # (26) Trials of the Luremaster mod.
+- !ruby/symbol The_golem_construction_mod                        # (27) The golem construction mod.
+- !ruby/symbol Afaaq_the_Djinni_Companion                        # (28) Afaaq the Djinni companion
+- !ruby/symbol Wares_of_the_Planes_mod                           # (29) Wares of the Planes Mod.
+
+# ============================================================================ #
+# === Derasiteur mods
+# ============================================================================ #
+- !ruby/symbol Jazon_the_revenant_mod                            # (30) Jazon the revenant Mod.
+- !ruby/symbol the_oops_mod                                      # (31) The Oops Mod.
+- !ruby/symbol Gilbertus_mod                                     # (32) Gilbertus mod.
+- !ruby/symbol The_ogre_and_the_gnome_mod                        # (33) The ogre and the gnome mod.
+- !ruby/symbol Insurmountable_Challenges_mod                     # (34) Insurmountable Challenges mod.
 
 # ============================================================================ #
 # === Acifer's mods
 # ============================================================================ #
-- !ruby/symbol Throne_of_the_Mad_God_mod                         # (36) Throne of the Mad God mod.
-- !ruby/symbol Call_of_the_Lost_Goddess_mod                      # (37) Call of the Lost Goddess mod.
-- !ruby/symbol Poisoned_Pathways_mod                             # (38) Poisoned Pathways mod.
-- !ruby/symbol Dark_Tidings_mod                                  # (39) Dark Tidings mod.
-
-
-- !ruby/symbol The_CowledMenace_mod                              # (40) The CowledMenace mod.
-- !ruby/symbol peacespeaker                                      # (41) The small peacespeaker Mod.
-- !ruby/symbol The_Sellswords_mod                                # (42) The Sellswords mod.
-- !ruby/symbol Autumns_Twilight_mod                              # (43) Autumns Twilight mod.
-- !ruby/symbol Mystigan_NPC_mod                                  # (44) Mystigan NPC mod.
-- !ruby/symbol Bolsa_the_merchant                                # (45) Bolsa the merchant mod.
+- !ruby/symbol Throne_of_the_Mad_God_mod                         # (35) Throne of the Mad God mod.
+- !ruby/symbol Call_of_the_Lost_Goddess_mod                      # (36) Call of the Lost Goddess mod.
+- !ruby/symbol Poisoned_Pathways_mod                             # (37) Poisoned Pathways mod.
+- !ruby/symbol Dark_Tidings_mod                                  # (38) Dark Tidings mod.
+- !ruby/symbol Autumns_Twilight_mod                              # (39) Autumns Twilight mod.
 
 # ============================================================================ #
-# === Item mods, items tag
+# === Other mods
 # ============================================================================ #
-- !ruby/symbol D2_weapon_mod                                     # (46) D2 weapon mod.
-- !ruby/symbol The_Item_Upgrade_Mod                              # (47) The Item Upgrade mod.
-- !ruby/symbol EE_Fixpack_mod                                    # (48) EE Fixpack mod.
-- !ruby/symbol consumables_mod                                   # (49) These are the ZS consumables.
-- !ruby/symbol ZS_ItemPack_mod                                   # (50) ZS ItemPack Mod.
-- !ruby/symbol Under_Represented_Items_mod                       # (51) Under Represented Items mod.
-- !ruby/symbol SoD_Items_to_BG2EE_EET_mod                        # (52) 
+- !ruby/symbol Solaufeins_rescue_mod                             # (40) Solaufeins rescue mod.
+- !ruby/symbol Ascalons_questpack_mod                            # (41) Ascalons questpack mod. Only adds one quest to BG2.
+- !ruby/symbol BG2_EE_Romantic_Encounters                        # (42) BG2 EE Romantic Encounters mod.
+- !ruby/symbol Jarnips_Bonus_Merchant                            # (43) A bonus merchant.
+- !ruby/symbol Golden_Horse_mod                                  # (44) Golden Horse Mod.
+- !ruby/symbol Blood_and_Faith_mod                               # (45) Blood and Faith mod.
+- !ruby/symbol The_BG1_NPCs_for_SoA_ToB_mod                      # (46) The BG1 NPCs for SoA ToB mod.
+- !ruby/symbol NeverwinterNights_mod                             # (47) Neverwinter Nights mod.
+- !ruby/symbol Demon_summoning_ritual_mod                        # (48) The Demon summoning ritual Mod.
+- !ruby/symbol The_Ajoc_mod                                      # (49) The Ajoc mod.
+# - !ruby/symbol Will_to_Power_mod                               # (--) Will to power mod.
+- !ruby/symbol Assassinations_mod                                # (50) Assassinations mod.
+- !ruby/symbol The_search_guild_mod                              # (51) The search guild Mod.
+# - !ruby/symbol duality_odd_quest                               # (--) Duality Odd Quest Mod. # This one is very buggy.
+- !ruby/symbol Hidden_Adventures_mod                             # (52) Hidden Adventures mod.
+- !ruby/symbol The_Dungeon_Crawl_mod                             # (53) The Dungeon Crawl Mod.
+- !ruby/symbol Dead_Gardens_mod                                  # (54) Dead Gardens mod.
+- !ruby/symbol Saradas_Magic_NPC_mod                             # (55) Saradas Magic NPC mod.
+- !ruby/symbol Heroes_Thieves_and_Moneylenders_mod               # (56) Heroes, Thieves and Moneylenders mod.
+- !ruby/symbol The_Reunion_mod                                   # (57) The Reunion Mod.
+- !ruby/symbol The_slithering_menace_mod                         # (58) The slithering menace mod.
+- !ruby/symbol Back_to_Brynnlaw_mod                              # (59) Back to Brynnlaw mod.
+- !ruby/symbol Tower_of_Deception_mod                            # (60) Tower of deception mod.
+- !ruby/symbol GoneNuts_mod                                      # (61) GoneNuts mod.
+- !ruby/symbol The_CowledMenace_mod                              # (62) The CowledMenace mod.
+- !ruby/symbol peacespeaker                                      # (63) The small peacespeaker Mod.
+- !ruby/symbol The_Sellswords_mod                                # (64) The Sellswords mod.
+- !ruby/symbol Mystigan_NPC_mod                                  # (65) Mystigan NPC mod.
+- !ruby/symbol Bolsa_the_merchant                                # (66) Bolsa the merchant mod.
 
-- !ruby/symbol The_Dungeon_Crawl_mod                        # (23) The Dungeon Crawl Mod.
-- !ruby/symbol Golden_Horse_mod                             # (28) Golden Horse Mod.
-- !ruby/symbol Blood_and_Faith_mod                          # (35) Blood and Faith mod.
-- !ruby/symbol BG2_EE_Romantic_Encounters                   # (37) BG2 EE Romantic Encounters mod.
-- !ruby/symbol Heroes_Thieves_and_Moneylenders_mod          # (49) Heroes, Thieves and Moneylenders mod.
-- !ruby/symbol The_Reunion_mod                              # (30) The Reunion Mod.
-- !ruby/symbol The_slithering_menace_mod                    # (32) The slithering menace mod.
-- !ruby/symbol The_BG1_NPCs_for_SoA_ToB_mod                 # (34) The BG1 NPCs for SoA ToB mod.
-- !ruby/symbol Dead_Gardens_mod                             # (39) Dead Gardens mod.
-- !ruby/symbol Saradas_Magic_NPC_mod                        # (40) Saradas Magic NPC mod.
-- !ruby/symbol Ascalons_questpack_mod                       # (46) Ascalons questpack mod.
-- !ruby/symbol NeverwinterNights_mod                        # (47) Neverwinter Nights mod.
-- !ruby/symbol Assassinations_mod                           # (19) Assassinations mod.
-- !ruby/symbol Demon_summoning_ritual_mod                   # (26) The Demon summoning ritual Mod.
-- !ruby/symbol The_Ajoc_mod                                 # (10) The Ajoc mod.
-- !ruby/symbol The_search_guild_mod                         # (11) The search guild Mod.
-- !ruby/symbol duality_odd_quest                            # (22) Duality Odd Quest Mod.
-- !ruby/symbol Hidden_Adventures_mod                        # (54) Hidden Adventures mod.
+# ============================================================================ #
+# === Item mods, items tag, item tag
+# ============================================================================ #
+- !ruby/symbol EE_Fixpack_mod                                    # (67) EE Fixpack mod.
+- !ruby/symbol The_Item_Upgrade_Mod                              # (68) The Item Upgrade mod.
+- !ruby/symbol D2_weapon_mod                                     # (69) D2 weapon mod.
+- !ruby/symbol consumables_mod                                   # (70) These are the ZS consumables.
+- !ruby/symbol Under_Represented_Items_mod                       # (71) Under Represented Items mod.
+- !ruby/symbol SoD_Items_to_BG2EE_EET_mod                        # (72) SoD Items transferred to BG2.
+- !ruby/symbol Forgotten_Armament_Mod                            # (73) Forgotten Armament mod.
+#- !ruby/symbol ZS_ItemPack_mod                                  # (--) ZS ItemPack Mod. Should be the last item-mod installed. 
 
 # ============================================================================ #
 # === Other mods                                                   (other tag)
 #
 # Currently not used.
 # ============================================================================ #
-- !ruby/symbol The_FowlWish_mod                             # (17) The FowlWish mod.
-- !ruby/symbol Project_Javelin_mod                          # (18) Project Javelin Mod.
-- !ruby/symbol Lunia_for_Good_Parties                       #  (8) Lunia for Good Parties Mod.
-- !ruby/symbol lichdom                                      # (21) Lichdom Mod.
-- !ruby/symbol LoveConquersAll_EE_mod                       # (25) LoveConquersAll EE mod.
-- !ruby/symbol Heart_of_the_Wood_mod                        # (50) Heart of the Wood mod.
+- !ruby/symbol The_FowlWish_mod                                  # (74) The FowlWish mod.
+- !ruby/symbol Project_Javelin_mod                               # (75) Project Javelin Mod.
+- !ruby/symbol Lunia_for_Good_Parties                            # (76) Lunia for Good Parties Mod.
+- !ruby/symbol lichdom                                           # (77) Lichdom Mod.
+- !ruby/symbol LoveConquersAll_EE_mod                            # (78) LoveConquersAll EE mod.
+- !ruby/symbol Heart_of_the_Wood_mod                             # (79) Heart of the Wood mod.
 
 # ============================================================================ #
-# === Install NPC mods next:                                         (NPC tag)
+# === Install NPC mods next                                          (NPC tag)
 # ============================================================================ #
-# - !ruby/symbol Zakrion_BG2_mod                         # (--) Zakrion BG2 mod.
+# - !ruby/symbol Zakrion_BG2_mod                                 # (--) Zakrion BG2 mod.
 # ============================================================================ #
-# - !ruby/symbol Skitia_NPCs_mod                           # (64) Skitia NPCs mod.
-# ============================================================================ #
-- !ruby/symbol Paina_the_NPC_mod                         # (62) Paina the NPC Mod.
-- !ruby/symbol All_Things_Mazzy_mod                      # (65) All Things Mazzy mo
-- !ruby/symbol The_Wings_mod                             # (67) The Wings Mod.
-- !ruby/symbol The_BaeBG2_mod                            # (57) The BaeBG2 mod.
-- !ruby/symbol Grey_the_dog_NPC_mod                      # (60) Grey the dog NPC mod.
-- !ruby/symbol Ninde_NPC_the_necromancer                 # (61) Ninde NPC the necromancer mod.
+- !ruby/symbol Paina_the_NPC_mod                                 # (80) Paina the NPC Mod.
+- !ruby/symbol All_Things_Mazzy_mod                              # (81) All Things Mazzy mo
+- !ruby/symbol The_Wings_mod                                     # (82) The Wings Mod.
+- !ruby/symbol The_BaeBG2_mod                                    # (83) The BaeBG2 mod.
+- !ruby/symbol Grey_the_dog_NPC_mod                              # (84) Grey the dog NPC mod.
+- !ruby/symbol Ninde_NPC_the_necromancer                         # (85) Ninde NPC the necromancer mod.
+- !ruby/symbol Skitia_NPCs_mod                                   # (86) Skitia NPCs mod.
 
 # ============================================================================ #
 # === More mods
 # ============================================================================ #
-- !ruby/symbol Shadows_over_Soubar                       # (42) Shadows over Soubar mod.
-- !ruby/symbol Back_to_Brynnlaw_mod                      # (51) Back to Brynnlaw mod.
-- !ruby/symbol GoneNuts_mod                              # (57) GoneNuts mod.
-- !ruby/symbol The_Crucible_Mod                          # (59) The Crucible mod.
-- !ruby/symbol Forgotten_Armament_Mod                    # (61) Forgotten Armament mod.
-- !ruby/symbol Tower_of_Deception_mod                    # (78) Tower of deception mod.
-- !ruby/symbol Region_of_Terror_mod                      # (61) Region of Terror mod.
-- !ruby/symbol Tactics_Remix_Mod                         # (84) Tactics Remix mod.
-- !ruby/symbol Bridges_Block_Mod                         # (85) Bridges Block mod. Should come after Tactics remix.
-- !ruby/symbol Tweaks_Anthology_Mod                      # (88) Tweaks Anthology mod.
-- !ruby/symbol The_Worldmap_Map_Mod                      # (87) The Worldmap Map mod.
+- !ruby/symbol Shadows_over_Soubar                               # (87) Shadows over Soubar mod.
+# - !ruby/symbol The_Crucible_Mod                                # (--) The Crucible mod. A bit too annoying IMO.
+- !ruby/symbol Region_of_Terror_mod                              # (88) Region of Terror mod.
+- !ruby/symbol Tactics_Remix_Mod                                 # (89) Tactics Remix mod.
+- !ruby/symbol Bridges_Block_Mod                                 # (90) Bridges Block mod. Should come after Tactics remix.
+- !ruby/symbol Tweaks_Anthology_Mod                              # (91) Tweaks Anthology mod.
+- !ruby/symbol The_Worldmap_Map_Mod                              # (92) The Worldmap Map mod.
