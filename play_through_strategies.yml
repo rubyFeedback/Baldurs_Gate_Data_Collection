@@ -1,0 +1,28 @@
+# ============================================================================ #
+# === play_through_strategies.yml
+#
+# This file may keep a few play-through strategies for the BG2 part. Over
+# time more such strategies may be added, as well as for other games of
+# the series such as Icewind Dale or Siege of Dragonspear, but this has
+# a very low priority, so do not expect many changes to this file.
+# ============================================================================ #
+
+# ============================================================================ #
+# === mass_summons
+#
+# The idea here is to gather as many summonables as possible. This also
+# includes having as many summonable characters as possible - this
+# qualifies for clerics, mages, druids and so forth.
+#
+#   (1) recruit Aura and get her automaton
+#   (2) grab the berserker figurine
+#   (3) recruit Paina and obtain the spider
+#   (4) obtain Jazon
+#   (5) get the djinni figurine
+#   (6) get Afaaq Djinni
+#   (7) get the thief-summon from Wares of the Plane
+#   (8) get gilbertus-spider
+#   (9) Play with Fall as well
+#
+# A few more ideas may be added to this here lateron.
+# ============================================================================ #
