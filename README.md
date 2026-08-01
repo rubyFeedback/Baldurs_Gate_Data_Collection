@@ -4,6 +4,16 @@ This repository may contain some information related to the old game called BG
 so forth, are at best **secondary focus points**. For the time being we could
 therefore call this repository a BG2 repository only.
 
+The focus here is with regards to mods created by other people, meaning I am
+trying to collect mods that I play or have played, and put some of that data
+into .yml (YAML) files. These YAML files may contain information such as, most
+importantly, the remote URL for the downloads (often a link to github), as 
+well as some other potentially useful information, such as when the mod
+was last updated, upstream. This information may become out of date, so do
+not rely on this being absolutely accurate; I only update it manually, from
+time to time.
+
+
 Please do take note that this repository may only be very **rarely updated**. Right
 now I only use it to publish the .yml files I use to track remote mods (BG2
 mods for the most part), as well as one .rb (ruby) file that evaluates the 
