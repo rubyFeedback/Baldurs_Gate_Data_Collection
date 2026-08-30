@@ -22,11 +22,108 @@
 # ============================================================================================ #
 
 # ============================================================================================ #
-# Todos:
+# === Assassinations mod
 #
-#   - Play Siege of Dragonspear at a later time.
-#
+# To start the main quest, talk to Bernard in the Copper Coronet. He might have a message
+# for you.
 # ============================================================================================ #
+# gitclone https://github.com/Pocket-Plane-Group/Assassinations
+# ============================================================================================ #
+# https://github.com/Pocket-Plane-Group/Assassinations
+# https://github.com/Pocket-Plane-Group/Assassinations/releases
+# ============================================================================================ #
+!ruby/symbol Assassinations_mod:
+ name_to_use:       Assassinations_mod
+ real_name:         Assassinations
+ github:            https://github.com/Pocket-Plane-Group/Assassinations
+ latest_release_at: https://github.com/Pocket-Plane-Group/Assassinations
+ last_updated:      08.05.2025
+ last_checked:      30.08.2026
+ latest_version:    19
+ use_git_checkout:  true
+
+# ============================================================================================ #
+# === Tactics Remix
+#
+# Some options can make the game very hard. Be especially cautious about improved mages
+# AI and stronger undead and smarter liches. The combination can really make games 
+# very hard.
+# ============================================================================================ #
+# https://www.morpheus-mart.com/tactics-remix
+# https://www.dropbox.com/scl/fi/6mb81zgx6iry3asd65vpr/Tactics-Remix-0.9.9-beta.zip?rlkey=lwt5owkoyuuf874pwxbxv90lo&e=1&st=phfy5bhw&dl=0
+# ============================================================================================ #
+!ruby/symbol Tactics_Remix_Mod:
+ name_to_use:       Tactics_Remix_Mod
+ real_name:         tactics-remix
+ github:            https://www.morpheus-mart.com/tactics-remix
+ latest_release_at: https://www.dropbox.com/scl/fi/x1iunfl6y19t6nsbz0vlp/Tactics-Remix-8.1.zip?rlkey=mnws2p1ebxclmioo8igy8szvn&st=wpcpr6im&e=1&dl=0
+ last_updated:      29.08.2026
+ last_checked:      30.08.2026
+ latest_version:    8.1
+ use_git_checkout:  false
+
+# ============================================================================================ #
+# === Under-Respresented_Items
+# ============================================================================================ #
+# https://github.com/Pocket-Plane-Group/Under-Respresented_Items
+# ============================================================================================ #
+!ruby/symbol Under_Represented_Items_mod:
+ name_to_use:       Under_Represented_Items_mod
+ real_name:         Under-Respresented_Items
+ github:            https://github.com/Pocket-Plane-Group/Under-Respresented_Items
+ latest_release_at: https://github.com/Pocket-Plane-Group/Under-Respresented_Items
+ last_updated:      17.08.2025
+ last_checked:      21.08.2026
+ latest_version:    7.3
+ use_git_checkout:  true
+
+# ============================================================================================ #
+# === Golden Horse mod
+#
+# Protect a joinable NPC, Revan Artecratos, from assassins in Baldur's Gate II with a
+# story tying it all together.
+# ============================================================================================ #
+!ruby/symbol Golden_Horse_mod:
+ name_to_use:       Golden_Horse_mod
+ real_name:         Golden-Horse
+ github:            https://github.com/Spellhold-Studios/Golden-Horse
+ latest_release_at: https://github.com/Spellhold-Studios/Golden-Horse/releases/tag/v1.8e
+ forum:             https://www.gibberlings3.net/forums/topic/38767-shs-welcomes-golden-horse-mercenary-company-mod/
+ last_checked:      21.08.2026
+ latest_version:    1.8f
+ use_git_checkout:  true
+
+# ============================================================================================ #
+# === EET mod
+# ============================================================================================ #
+# https://github.com/Gibberlings3/EET/
+# https://github.com/Gibberlings3/EET/archive/refs/tags/v14.1.zip
+# ============================================================================================ #
+!ruby/symbol EET_from_Gibberlings3:
+ name_to_use:       EET_from_CawDawg
+ real_name:         EET # This will be used for weidu.exe
+ github:            https://github.com/Gibberlings3/EET/ # or https://github.com/CamDawg/EET
+ latest_release_at: https://github.com/Gibberlings3/EET/archive/refs/tags/v14.1.zip
+ last_checked:      21.08.2026
+ latest_version:    25.04.2026
+ use_git_checkout:  true
+
+# ============================================================================================ #
+# === Bridge's Block
+#
+# Should come after tactics remix.
+# ============================================================================================ #
+# https://downloads.weaselmods.net/download/bridges-block/
+# ============================================================================================ #
+!ruby/symbol Bridges_Block_Mod:
+ name_to_use:       Bridges_Block_Mod
+ real_name:         bridges-block
+ github:            https://downloads.weaselmods.net/download/bridges-block/
+ latest_release_at: https://downloads.weaselmods.net/download/bridges-block/?wpdmdl=478&refresh=6a6482245da581784971812
+ last_updated:      07.04.2026
+ last_checked:      30.04.2026
+ latest_version:    2.02
+ use_git_checkout:  false
 
 # ============================================================================================ #
 # === The_Item_Upgrade_Mod_v52_released_on_30.12.2023
@@ -90,8 +187,8 @@
  github:            https://github.com/szaumoor/ZS_Consumables
  latest_release_at: https://github.com/szaumoor/ZS_Consumables/download/1.6.9/win-ZSTweaks-1.6.9.zip
  last_update:       04.04.2026
- last_checked:      10.05.2026
- latest_version:    1.6.9 # Version 1.6.9 was released on the 04.04.2026. 
+ last_checked:      21.08.2026
+ latest_version:    1.0.5 
  use_git_checkout:  true
 
 # ============================================================================================ #
@@ -266,22 +363,6 @@
  use_git_checkout:  false
 
 # ============================================================================================ #
-# === EET mod
-# ============================================================================================ #
-# https://github.com/Gibberlings3/EET/
-# https://github.com/Gibberlings3/EET/archive/refs/tags/v14.1.zip
-# git clone https://github.com/Gibberlings3/EET/
-# ============================================================================================ #
-!ruby/symbol EET_from_Gibberlings3:
- name_to_use:       EET_from_CawDawg
- real_name:         EET # This will be used for weidu.exe
- github:            https://github.com/Gibberlings3/EET/ # or https://github.com/CamDawg/EET
- latest_release_at: https://github.com/Gibberlings3/EET/archive/refs/tags/v14.1.zip
- last_checked:      25.04.2026
- latest_version:    25.04.2026
- use_git_checkout:  true
-
-# ============================================================================================ #
 # === Lunia for Good Parties mod
 #
 # This mod allows all non-evil characters, that have a reputation of 14 or above,
@@ -343,11 +424,6 @@
 # ============================================================================================ #
 # === peacespeaker mod aka peacekeeper
 # ============================================================================================ #
-# Latest version:   2.3        # The latest official version.
-# Latest update:    25.04.2026 # We use the git clone sources.
-# ============================================================================================ #
-# https://github.com/bucketfulofsunshine/peacespeaker
-# ============================================================================================ #
 # https://github.com/bucketfulofsunshine/peacespeaker
 # https://github.com/bucketfulofsunshine/peacespeaker/releases/tag/v1.4a
 # ============================================================================================ #
@@ -356,10 +432,9 @@
  real_name:         peacespeaker
  github:            https://github.com/bucketfulofsunshine/peacespeaker
  latest_release_at: https://github.com/bucketfulofsunshine/peacespeaker/refs/tags/V1.9.1.zip
- last_checked:      25.04.2026
+ last_checked:      21.08.2026
  latest_version:    25.04.2026
  use_git_checkout:  true
-
 
 # ============================================================================================ #
 # === peacespeaker mod
@@ -419,7 +494,7 @@
 # ============================================================================================ #
 # https://downloads.weaselmods.net/download/tangled-oak-isle/
 # ============================================================================================ #
-!ruby/symbol the_tangled_oak_isle_mod:
+!ruby/symbol The_tangled_oak_isle_mod:
  name_to_use:       The_Tangled_Oak_isle_mod
  real_name:         Tangled_Oak_Isle
  github:            https://downloads.weaselmods.net/download/tangled-oak-isle/
@@ -507,6 +582,30 @@
  use_git_checkout:  true
 
 # ============================================================================================ #
+# === Shrine of Siamorphe mod, by Lava
+# ============================================================================================ #
+!ruby/symbol Shrine_of_Siamorphe_mod:
+ name_to_use:       Shrine_of_Siamorphe_mod
+ real_name:         the-life-and-heroism-of-jimothy-the-raccoon
+ github:            https://downloads.weaselmods.net/download/siamorphes-weaponry/
+ latest_release_at: https://downloads.weaselmods.net/download/siamorphes-weaponry/?wpdmdl=935&refresh=6a8755e7c8ab31787254247
+ last_checked:      21.08.2026
+ latest_version:    1.0
+ use_git_checkout:  false
+
+# ============================================================================================ #
+# === Jimothy_the_Raccoon_mod, by Lava
+# ============================================================================================ #
+!ruby/symbol Jimothy_the_Raccoon_mod:
+ name_to_use:       Jimothy_the_Raccoon_mod
+ real_name:         the-life-and-heroism-of-jimothy-the-raccoon
+ github:            https://downloads.weaselmods.net/download/the-life-and-heroism-of-jimothy-the-raccoon/
+ latest_release_at: https://downloads.weaselmods.net/download/the-life-and-heroism-of-jimothy-the-raccoon/?wpdmdl=929&refresh=6a64a873d1c351784981619
+ last_checked:      25.07.2026
+ latest_version:    1.0
+ use_git_checkout:  false
+
+# ============================================================================================ #
 # === I shall never forget mod, by Lava, should come late as it adds new areas
 # ============================================================================================ #
 !ruby/symbol I_shall_never_forget_mod:
@@ -529,19 +628,6 @@
  last_checked:      25.04.2026
  latest_version:    12.96
  use_git_checkout:  false
-
-# ============================================================================================ #
-# === Golden Horse mod
-# ============================================================================================ #
-!ruby/symbol Golden_Horse_mod:
- name_to_use:       Golden_Horse_mod
- real_name:         tales-of-the-deep-gardens
- github:            https://github.com/Spellhold-Studios/Golden-Horse
- latest_release_at: https://github.com/Spellhold-Studios/Golden-Horse/releases/tag/v1.8e
- forum:             https://www.gibberlings3.net/forums/topic/38767-shs-welcomes-golden-horse-mercenary-company-mod/
- last_checked:      25.04.2026
- latest_version:    1.8f
- use_git_checkout:  true
 
 # ============================================================================================ #
 # === Will of the Wisps mod
@@ -620,9 +706,8 @@
 
 # ============================================================================================ #
 # === Jazon the revenant mod
-# ============================================================================================ #
-# Latest version:   4.4        # The latest official version.
-# Latest update:    30.01.2026 # 
+#
+# Jazon now follows the player if the player presses K, so k is a toggle-key here.
 # ============================================================================================ #
 # https://github.com/Deratiseur/Jazon/
 # ============================================================================================ #
@@ -631,7 +716,7 @@
  real_name:         Jazon
  github:            https://github.com/Deratiseur/Jazon/
  latest_release_at: https://github.com/Deratiseur/Jazon/releases
- last_checked:      25.04.2026
+ last_checked:      21.08.2026
  latest_version:    4.4
  use_git_checkout:  true
 
@@ -1038,7 +1123,7 @@
  use_git_checkout:  false
 
 # ============================================================================================ #
-# === 049) Back to Brynnlaw
+# === Back to Brynnlaw
 # ============================================================================================ #
 # https://github.com/Pocket-Plane-Group/Back_to_Brynnlaw
 # ============================================================================================ #
@@ -1053,10 +1138,7 @@
  use_git_checkout:  true
 
 # ============================================================================================ #
-# === 046) Dead Garden mod
-#
-# Last update:             04.02.2025
-# Last version:            1.2
+# === Dead Garden mod
 #
 # An archdruid died but rose again as an undead creature. He is unable to move on due to
 # his greatest regret in life—he saved three children from being sacrificed to Malar. He
@@ -1085,7 +1167,7 @@
  use_git_checkout:  true
 
 # ============================================================================================ #
-# === 074) Saradas Magic
+# === Saradas Magic
 # ============================================================================================ #
 # https://github.com/Spellhold-Studios/Saradas-Magic-BG2
 # ============================================================================================ #
@@ -1115,10 +1197,7 @@
  use_git_checkout:  true
 
 # ============================================================================================ #
-# === 073) Dreadful tales the bloodied stings of barovia
-#
-# Last update:             04.02.2026
-# Last version:            2.6.2
+# === Dreadful tales the bloodied stings of barovia
 # ============================================================================================ #
 # https://downloads.weaselmods.net/download/the-bloodied-stings-of-barovia/
 # ============================================================================================ #
@@ -1148,28 +1227,7 @@
  use_git_checkout:  true
 
 # ============================================================================================ #
-# === 071) Assassinations mod
-#
-# Last update:             22.02.2025
-# Last version:            v19
-# ============================================================================================ #
-# gitclone https://github.com/Pocket-Plane-Group/Assassinations
-# ============================================================================================ #
-# https://github.com/Pocket-Plane-Group/Assassinations
-# https://github.com/Pocket-Plane-Group/Assassinations/releases
-# ============================================================================================ #
-!ruby/symbol Assassinations_mod:
- name_to_use:       Assassinations_mod
- real_name:         Assassinations
- github:            https://github.com/Pocket-Plane-Group/Assassinations
- latest_release_at: https://github.com/Pocket-Plane-Group/Assassinations
- last_updated:      08.05.2025
- last_checked:      30.04.2026
- latest_version:    3.16
- use_git_checkout:  true
-
-# ============================================================================================ #
-# === 044) LoveConquersAll_EE
+# === LoveConquersAll_EE
 # ============================================================================================ #
 # https://github.com/LCA-EET/
 # https://github.com/LCA-EET/LCA/releases/tag/v1.5.9a
@@ -1185,10 +1243,7 @@
  use_git_checkout:  true
 
 # ============================================================================================ #
-# === 040) Region of Terror.
-#
-# Last update:             27.12.2025
-# Last version:            5.0
+# === Region of Terror.
 #
 # The drizzt mod. It should come fairly late, as it changes many things.
 # ============================================================================================ #
@@ -1206,12 +1261,9 @@
  use_git_checkout:  true
 
 # ============================================================================================ #
-# === 060) Alabaster Sands
+# === Alabaster Sands
 #
-# Alabaster Sands mod Lava
-#
-# Last update:             02.01.2026
-# Last version:            1.9.2
+# Alabaster Sands mod Lava.
 # ============================================================================================ #
 # https://downloads.weaselmods.net/download/alabaster-sands/
 # ============================================================================================ #
@@ -1226,10 +1278,7 @@
  use_git_checkout:  false
 
 # ============================================================================================ #
-# === 045) Ascalon's questpack.
-#
-# Last update:             04.02.2025
-# Last version:            6.1
+# === Ascalon's questpack.
 #
 # A Halfling among the Eyeless.
 #
@@ -1251,12 +1300,7 @@
  use_git_checkout:  true
 
 # ============================================================================================ #
-# === 050) NeverwinterNights
-#
-# Last update:             03.01.2026
-# Last version:            1.00
-#
-# gitclone https://github.com/abalabokhin/NWNForBG
+# === NeverwinterNights
 # ============================================================================================ #
 # https://github.com/abalabokhin/NWNForBG
 # ============================================================================================ #
@@ -1271,10 +1315,7 @@
  use_git_checkout:  true
 
 # ============================================================================================ #
-# === 052) Call of the Lost Goddess
-#
-# Last version:            2.7
-#
+# === Call of the Lost Goddess
 # ============================================================================================ #
 # wget https://github.com/AciferBG/Call-of-the-Lost-Goddess/releases/download/v2.4/Call_of_the_lost_goddess_V_2.4.zip; tarb *zip
 # gitclone https://github.com/AciferBG/Call-of-the-Lost-Goddess
@@ -1310,10 +1351,7 @@
  use_git_checkout:  false
 
 # ============================================================================================ #
-# === 054) Heroes, Thieves and Moneylenders
-#
-# Last version:            4.6.4
-#
+# === Heroes, Thieves and Moneylenders
 # ============================================================================================ #
 # wget https://github.com/Austin-BG/HTaM/releases/download/v.4.6.3/heroes-thieves-and-moneylenders-4.6.3.zip
 # tarb heroes-thieves-and-moneylenders-4.6.2.zip
@@ -1333,12 +1371,9 @@
  use_git_checkout:  true
 
 # ============================================================================================ #
-# === 055) The_Innershade_mod_v11.13_released_on_12.12.2024
+# === The_Innershade_mod_v11.13_released_on_12.12.2024
 #
 # Should come fairly late as it modifies maps.
-#
-# Last version:            11.16
-#
 # ============================================================================================ #
 # https://downloads.weaselmods.net/download/innershade/
 # ============================================================================================ #
@@ -1353,7 +1388,7 @@
  use_git_checkout:  false
 
 # ============================================================================================ #
-# === 056) Almaterias-Restoration-Project
+# === Almaterias-Restoration-Project
 # ============================================================================================ #
 # wget https://github.com/Spellhold-Studios/Almaterias-Restoration-Project/releases/download/v10.1/arestorationp-v10.1.zip
 # gitclone https://github.com/Spellhold-Studios/Almateria-Restoration-Project
@@ -1373,7 +1408,7 @@
  use_git_checkout:  true
 
 # ============================================================================================ #
-# === 057) Heart of the Wood
+# === Heart of the Wood
 #
 # A druidic wand that summons some powerful forest monsters and creatures.
 # ============================================================================================ #
@@ -1391,7 +1426,7 @@
  use_git_checkout:  true
  
 # ============================================================================================ #
-# === 058) D2-weapon-mod
+# === D2-weapon-mod
 # ============================================================================================ #
 # https://github.com/D2-mods/D2-Weapon
 # https://github.com/D2-mods/D2-Weapon/releases/tag/v3.1
@@ -1407,9 +1442,8 @@
  latest_version:    3.2
  use_git_checkout:  true
 
-
 # ============================================================================================ #
-# === 063) Trials of the Luremaster mod
+# === Trials of the Luremaster mod
 #
 # Should probably come before Shadows over Soubar.
 # ============================================================================================ #
@@ -1429,9 +1463,7 @@
  use_git_checkout:  true
 
 # ============================================================================================ #
-# === 069) The Dusk NPC mod
-#
-# Last update:             03.01.2026
+# === The Dusk NPC mod
 # ============================================================================================ #
 # git clone https://github.com/evancauteren/bg2-autumns-twilight-mod/
 # ============================================================================================ #
@@ -1444,21 +1476,6 @@
  latest_release_at: https://github.com/evancauteren/bg2-autumns-twilight-mod/
  last_updated:      17.08.2025
  last_checked:      01.05.2026
- latest_version:    7.3
- use_git_checkout:  true
-
-# ============================================================================================ #
-# === Under-Respresented_Items
-# ============================================================================================ #
-# https://github.com/Pocket-Plane-Group/Under-Respresented_Items
-# ============================================================================================ #
-!ruby/symbol Under_Represented_Items_mod:
- name_to_use:       Under_Represented_Items_mod
- real_name:         Under-Respresented_Items
- github:            https://github.com/Pocket-Plane-Group/Under-Respresented_Items
- latest_release_at: https://github.com/Pocket-Plane-Group/Under-Respresented_Items
- last_updated:      17.08.2025
- last_checked:      30.04.2026
  latest_version:    7.3
  use_git_checkout:  true
 
@@ -1585,7 +1602,7 @@
  use_git_checkout:  true
 
 # ============================================================================================ #
-# === 077) The Crucible mod
+# === The Crucible mod
 # ============================================================================================ #
 # https://www.morpheus-mart.com/crucible
 # ============================================================================================ #
@@ -1598,43 +1615,6 @@
  last_checked:      30.04.2026
  latest_version:    5.0
  use_git_checkout:  true
-
-# ============================================================================================ #
-# === 078) Tactics Remix
-#
-# Some options can make the game very hard. Be especially cautious about improved mages
-# AI and stronger undead and smarter liches. The combination can really make games 
-# very hard.
-# ============================================================================================ #
-# https://www.morpheus-mart.com/tactics-remix
-# https://www.dropbox.com/scl/fi/6mb81zgx6iry3asd65vpr/Tactics-Remix-0.9.9-beta.zip?rlkey=lwt5owkoyuuf874pwxbxv90lo&e=1&st=phfy5bhw&dl=0
-# ============================================================================================ #
-!ruby/symbol Tactics_Remix_Mod:
- name_to_use:       Tactics_Remix_Mod
- real_name:         tactics-remix
- github:            https://www.morpheus-mart.com/tactics-remix
- latest_release_at: https://www.dropbox.com/scl/fi/1f4a13hxyohyu3w7jzhfz/Tactics-Remix-7.3.zip?rlkey=hm5wyldkazcvrudv7qup39u27&e=1&st=wvjnxo20&dl=0
- last_updated:      07.04.2026
- last_checked:      30.04.2026
- latest_version:    7.3
- use_git_checkout:  false
-
-# ============================================================================================ #
-# === 079) Bridge's Block
-#
-# Should come after tactics remix.
-# ============================================================================================ #
-# https://downloads.weaselmods.net/download/bridges-block/
-# ============================================================================================ #
-!ruby/symbol Bridges_Block_Mod:
- name_to_use:       Bridges_Block_Mod
- real_name:         bridges-block
- github:            https://downloads.weaselmods.net/download/bridges-block/
- latest_release_at: https://downloads.weaselmods.net/download/bridges-block/?wpdmdl=478&refresh=69ef74aeea9ab1777300654
- last_updated:      07.04.2026
- last_checked:      30.04.2026
- latest_version:    2.02
- use_git_checkout:  false
 
 # ============================================================================================ #
 # === 61 Forgotten Armament
@@ -1676,7 +1656,7 @@
  use_git_checkout:  true
 
 # ============================================================================================ #
-# === 041) Dark Tidings
+# === Dark Tidings
 # ============================================================================================ #
 # gitclone https://github.com/AciferBG/Dark-Tidings/
 # ============================================================================================ #
@@ -1757,7 +1737,7 @@
 # ============================================================================================ #
 
 # ============================================================================================ #
-# === 3) Fading Promises: A paladin
+# === Fading Promises: A paladin
 # ============================================================================================ #
 # https://github.com/Spellhold-Studios/Fading-Promises
 # https://github.com/Spellhold-Studios/Fading-Promises/releases/tag/v9
@@ -1806,7 +1786,7 @@
 # ============================================================================================ #
 
 # ============================================================================================ #
-# === 9) Jan's alchemy mod
+# === Jan's alchemy mod
 #
 # jans-alchemy                                                # 23, that one never worked well for me
 #
