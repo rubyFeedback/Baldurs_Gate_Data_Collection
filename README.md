@@ -2,7 +2,7 @@
 This repository may contain some information related to the old game called BG
 (Baldur's Gate). Though, I personally focus more on BG2 only - thus, BG1 or SoD and
 so forth, are at best **secondary focus points**. For the time being we could
-therefore call this repository a BG2 repository only.
+therefore call this repository a **BG2 repository only**.
 
 The focus here is with regards to mods created by other people, meaning I am
 trying to collect mods that I play or have played, and put some of that data
