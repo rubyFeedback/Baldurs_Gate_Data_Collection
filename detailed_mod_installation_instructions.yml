@@ -32,7 +32,7 @@
 # ============================================================================================ #
 
 # ============================================================================================ #
-# === Silverrealms mod
+# === Silverrealms mod                                                      (silverrealms tag)
 # ============================================================================================ #
 !ruby/symbol Silverrealms_mod:
  name_to_use:       Silverrealms_mod
@@ -45,9 +45,70 @@
   which in turn marks the beginning of this mod.
 
  authors:           Acifer
- last_updated:      24.10.2026
- last_checked:      24.10.2026
+ last_updated:      25.10.2026
+ last_checked:      25.10.2026
  latest_version:    v0.908
+ use_git_checkout:  true
+
+
+# ============================================================================================ #
+# === Tactics Remix
+#
+# Some options can make the game very hard. Be especially cautious about improved mages
+# AI and stronger undead and smarter liches. The combination can really make games 
+# very hard.
+# ============================================================================================ #
+!ruby/symbol Tactics_Remix_Mod:
+ name_to_use:       Tactics_Remix_Mod
+ real_name:         tactics-remix
+ github:            https://www.morpheus-mart.com/tactics-remix
+ latest_release_at: https://www.dropbox.com/scl/fi/x1iunfl6y19t6nsbz0vlp/Tactics-Remix-8.1.zip?rlkey=mnws2p1ebxclmioo8igy8szvn&st=wpcpr6im&e=1&dl=0
+ authors:           morpheus
+ last_updated:      07.09.2026
+ last_checked:      25.10.2026
+ latest_version:    8.2
+ use_git_checkout:  false
+
+# ============================================================================================ #
+# === Forgotten Armament
+# ============================================================================================ #
+!ruby/symbol Forgotten_Armament_Mod:
+ name_to_use:       Forgotten_Armament_Mod
+ real_name:         forgotten-armament
+ github:            https://www.morpheus-mart.com/forgotten-armament
+ latest_release_at: https://www.dropbox.com/scl/fi/fti1a0s5ehxxtg1ch2d5p/Forgotten-Armament-6.0.zip?rlkey=95dtrdzynmpvdgpu6g4h9rxpr&e=1&st=i7n7q17m&dl=0
+ authors:           morpheus
+ last_updated:      17.09.2026
+ last_checked:      25.10.2026
+ latest_version:    7.1
+ use_git_checkout:  false
+
+# ============================================================================================ #
+# === Eilistraees Song mod
+# ============================================================================================ #
+!ruby/symbol Eilistraees_Song_mod:
+ name_to_use:       Eilistraees_Song_mod
+ real_name:         eilistraees-song
+ github:            https://downloads.weaselmods.net/download/eilistraees-song/
+ latest_release_at: https://downloads.weaselmods.net/download/eilistraees-song/?wpdmdl=89&refresh=6ada8c0cc98ed1792707596
+ authors:           Lava
+ last_updated:      01.07.2026
+ last_checked:      25.10.2026
+ latest_version:    7.5.2
+ use_git_checkout:  false
+
+# ============================================================================================ #
+# === Call of the Lost Goddess
+# ============================================================================================ #
+!ruby/symbol Call_of_the_Lost_Goddess_mod:
+ name_to_use:       Call_of_the_Lost_Goddess_mod
+ real_name:         Call-of-the-Lost-Goddess
+ github:            https://github.com/AciferBG/Call-of-the-Lost-Goddess
+ latest_release_at: https://github.com/AciferBG/Call-of-the-Lost-Goddess
+ forum:             https://forums.beamdog.com/discussion/88425/released-mod-call-of-the-lost-goddess-a-quest-mod-for-bg2ee
+ last_updated:      13.10.2026
+ last_checked:      23.10.2026
+ latest_version:    3.3
  use_git_checkout:  true
 
 # ============================================================================================ #
@@ -76,23 +137,6 @@
  last_updated:      07.04.2026
  last_checked:      30.04.2026
  latest_version:    2.02
- use_git_checkout:  false
-
-# ============================================================================================ #
-# === Tactics Remix
-#
-# Some options can make the game very hard. Be especially cautious about improved mages
-# AI and stronger undead and smarter liches. The combination can really make games 
-# very hard.
-# ============================================================================================ #
-!ruby/symbol Tactics_Remix_Mod:
- name_to_use:       Tactics_Remix_Mod
- real_name:         tactics-remix
- github:            https://www.morpheus-mart.com/tactics-remix
- latest_release_at: https://www.dropbox.com/scl/fi/x1iunfl6y19t6nsbz0vlp/Tactics-Remix-8.1.zip?rlkey=mnws2p1ebxclmioo8igy8szvn&st=wpcpr6im&e=1&dl=0
- last_updated:      07.09.2026
- last_checked:      25.10.2026
- latest_version:    8.2
  use_git_checkout:  false
 
 # ============================================================================================ #
@@ -306,19 +350,6 @@
  last_checked:      25.10.2026
  latest_version:    4.0.0
  use_git_checkout:  true
-
-# ============================================================================================ #
-# === Forgotten Armament
-# ============================================================================================ #
-!ruby/symbol Forgotten_Armament_Mod:
- name_to_use:       Forgotten_Armament_Mod
- real_name:         forgotten-armament
- github:            https://www.morpheus-mart.com/forgotten-armament
- latest_release_at: https://www.dropbox.com/scl/fi/fti1a0s5ehxxtg1ch2d5p/Forgotten-Armament-6.0.zip?rlkey=95dtrdzynmpvdgpu6g4h9rxpr&e=1&st=i7n7q17m&dl=0
- last_updated:      17.09.2026
- last_checked:      25.10.2026
- latest_version:    7.1
- use_git_checkout:  false
 
 # ============================================================================================ #
 # === EE Fixpack
@@ -1116,19 +1147,6 @@
  use_git_checkout:  false
 
 # ============================================================================================ #
-# === Eilistraees Song mod
-# ============================================================================================ #
-!ruby/symbol Eilistraees_Song_mod:
- name_to_use:       Eilistraees_Song_mod
- real_name:         eilistraees-song
- github:            https://downloads.weaselmods.net/download/eilistraees-song/
- latest_release_at: https://downloads.weaselmods.net/download/eilistraees-song/?wpdmdl=89&refresh=6ada8c0cc98ed1792707596">D
- last_updated:      01.07.2026
- last_checked:      23.10.2026
- latest_version:    7.5.2
- use_git_checkout:  false
-
-# ============================================================================================ #
 # === The Dvaradime NPC some NPC - is a fairly nice mod.
 # ============================================================================================ #
 !ruby/symbol Dvaradime_NPC_mod:
@@ -1225,24 +1243,6 @@
  last_updated:      13.10.2026
  last_checked:      23.10.2026
  latest_version:    1.8
- use_git_checkout:  true
-
-# ============================================================================================ #
-# === Call of the Lost Goddess
-# ============================================================================================ #
-# https://github.com/AciferBG/Call-of-the-Lost-Goddess
-# https://github.com/AciferBG/Call-of-the-Lost-Goddess/releases/tag/v2.1
-# https://baldurs-gate.de/index.php?resources/call-of-the-lost-goddess.67/
-# https://baldurs-gate.de/index.php?resources/call-of-the-lost-goddess.67/updates#resource-update-159
-# ============================================================================================ #
-!ruby/symbol Call_of_the_Lost_Goddess_mod:
- name_to_use:       Call_of_the_Lost_Goddess_mod
- real_name:         Call-of-the-Lost-Goddess
- github:            https://github.com/AciferBG/Call-of-the-Lost-Goddess
- latest_release_at: https://github.com/AciferBG/Call-of-the-Lost-Goddess
- last_updated:      13.10.2026
- last_checked:      23.10.2026
- latest_version:    3.3
  use_git_checkout:  true
 
 # ============================================================================================ #
