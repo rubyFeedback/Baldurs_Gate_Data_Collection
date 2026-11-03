@@ -48,8 +48,8 @@ fetches the most recent source. I also found that one may need to distribute the
 weidu.exe, named the same as the corresponding .tp2 file. At the least I do this
 for now in the ruby code.
 
-All local knowledge I have gathered about BG2 will eventually be published via
-webpage. You can see the current status of that page, in November 2026,
+All local knowledge that I have gathered about **BG2** will eventually be published
+via a webpage. You can see the current status of that page, in <b>November 2026</b>,
 here:
 
 https://htmlpreview.github.io/?https://github.com/rubyFeedback/Baldurs_Gate_Data_Collection/blob/main/baldurs_gate2.html
